@@ -1,35 +1,45 @@
-import { Wifi, ShieldCheck, Utensils, Car, Sparkles, Clock } from "lucide-react";
+import { Wifi, ShieldCheck, Coffee, Car, Sparkles, Users, Droplet, Home } from "lucide-react";
 
 const features = [
   {
-    icon: Wifi,
-    title: "High-Speed WiFi",
-    description: "Reliable fiber internet perfect for remote work and streaming"
+    icon: Users,
+    title: "Women-Only Property",
+    description: "Safe and secure accommodation exclusively for women students and professionals"
   },
   {
     icon: ShieldCheck,
     title: "24/7 Security",
-    description: "CCTV surveillance and secure access for your peace of mind"
+    description: "Biometric access, 20 CCTV cameras, security personnel, and property manager on-site"
   },
   {
-    icon: Utensils,
-    title: "Kitchen Access",
-    description: "Fully equipped shared kitchen for home-cooked meals"
+    icon: Wifi,
+    title: "High-Speed WiFi",
+    description: "Free 200 Mbps WiFi with option for private WiFi and cable TV"
+  },
+  {
+    icon: Coffee,
+    title: "Self-Cooking Kitchen",
+    description: "Every room has a kitchen area for self-cooking with personal appliances"
+  },
+  {
+    icon: Home,
+    title: "Spacious Balconies",
+    description: "All rooms feature open-air balconies with city or garden views"
+  },
+  {
+    icon: Droplet,
+    title: "Water & Amenities",
+    description: "Municipality water supply, hot/cold water dispenser, and refrigerators on each floor"
   },
   {
     icon: Car,
-    title: "Free Parking",
-    description: "Safe parking space for bikes and cars"
+    title: "Parking Space",
+    description: "2,500 sq ft parking with covered 2-wheeler parking and free 4-wheeler parking"
   },
   {
     icon: Sparkles,
     title: "Housekeeping",
-    description: "Regular cleaning services included in your rent"
-  },
-  {
-    icon: Clock,
-    title: "Power Backup",
-    description: "Uninterrupted power supply for all your needs"
+    description: "Twice-weekly cleaning service included, additional cleaning on request"
   }
 ];
 
@@ -39,14 +49,14 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Everything You Need for Comfortable Living
+            Everything You Need for Safe & Comfortable Living
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We've thought of everything to make your long stay feel like home
+            Newly opened in September 2025 with premium amenities across 11,000 sq ft
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (

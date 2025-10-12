@@ -25,12 +25,15 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl animate-fade-in">
+          <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            👩 Women-Only Property • Newly Opened Sept 2025
+          </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            Live Smart. Stay Longer.
-            <span className="block text-primary mt-2">Near Adithya Techno Park.</span>
+            The Royal Nest Studio House
+            <span className="block text-primary mt-2">Near Adithya Techno Park</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8">
-            Your Coimbatore home designed for students & professionals. Comfortable long-stay living in Saravanampatti with modern amenities and community spirit.
+            A premium women-only property in Saravanampatti. Safe, comfortable, and modern long-stay living for students & working professionals. Built over 11,000 sq ft with spacious common areas.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link to="/contact">

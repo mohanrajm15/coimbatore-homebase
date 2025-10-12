@@ -6,8 +6,9 @@ import { Link } from "react-router-dom";
 
 const pricingPlans = [
   {
-    title: "Shared Living",
-    price: "₹5,500",
+    title: "Deluxe Twin Sharing",
+    rooms: "2 rooms available",
+    size: "17 ft × 10 ft",
     deposit: "₹11,000",
     description: "Perfect for budget-conscious students",
     features: [
@@ -67,11 +68,14 @@ const Pricing = () => {
         <section className="py-20 gradient-warm">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
+              <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                👩 Women-Only Property
+              </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Transparent Pricing
               </h1>
               <p className="text-xl text-muted-foreground">
-                No hidden charges. All-inclusive monthly rates for hassle-free living
+                Contact us for pricing. All-inclusive rates with no hidden charges.
               </p>
             </div>
           </div>

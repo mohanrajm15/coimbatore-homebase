@@ -1,24 +1,24 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { MapPin, Bus, Building2, GraduationCap } from "lucide-react";
+import { MapPin, Bus, Building2, GraduationCap, ShoppingBag, Coffee } from "lucide-react";
 
 const nearbyPlaces = [
   {
     icon: Building2,
     title: "IT Parks & Tech Companies",
     places: [
-      "Adithya Techno Park - 5 min",
-      "KGISL Campus - 10 min",
-      "CHIL-SEZ - 12 min",
-      "Various IT companies in Saravanampatti"
+      "Adithya Techno Park - 0.5 km (5 min walk)",
+      "KGISL Campus - 2 km (10 min)",
+      "CHIL-SEZ - 3 km (12 min)",
+      "Multiple IT companies in Saravanampatti"
     ]
   },
   {
     icon: GraduationCap,
     title: "Educational Institutions",
     places: [
-      "SNS College - 15 min",
-      "Kumaraguru College of Technology - 20 min",
+      "SNS College - 4 km (15 min)",
+      "Kumaraguru College of Technology - 5 km (20 min)",
       "Various training centers nearby"
     ]
   },
@@ -26,20 +26,40 @@ const nearbyPlaces = [
     icon: Bus,
     title: "Transport & Connectivity",
     places: [
-      "Major bus routes available",
-      "Easy access to Coimbatore Airport",
-      "Well-connected to city center",
-      "Taxi and auto services readily available"
+      "KG College Bus Stop - Walking distance",
+      "Multiple bus routes available",
+      "Easy access to Coimbatore Airport - 15 km",
+      "Rapido, Ola, Uber readily available"
+    ]
+  },
+  {
+    icon: ShoppingBag,
+    title: "Shopping & Retail",
+    places: [
+      "Fun Republic Mall - 2 km (shopping & cinema)",
+      "Prozone Mall - 3 km (10 min)",
+      "Local markets and grocery stores within 1 km",
+      "Banks and ATMs within 500m"
+    ]
+  },
+  {
+    icon: Coffee,
+    title: "Dining & Entertainment",
+    places: [
+      "Multiple restaurants within 1 km",
+      "Cafes and fast food outlets nearby",
+      "Street food and local eateries",
+      "Food delivery (Swiggy, Zomato) available"
     ]
   },
   {
     icon: MapPin,
-    title: "Amenities Nearby",
+    title: "Essential Services",
     places: [
-      "Shopping malls within 10 min",
-      "Restaurants and cafes",
-      "Banks and ATMs",
-      "Hospitals and clinics"
+      "Hospitals and clinics within 2 km",
+      "Pharmacies within 500m",
+      "Post office - 1.5 km",
+      "Police station nearby for safety"
     ]
   }
 ];
@@ -55,10 +75,10 @@ const Location = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Prime Location
+                Prime Location in Saravanampatti
               </h1>
               <p className="text-xl text-muted-foreground">
-                Strategically located in Saravanampatti, Coimbatore's thriving tech and education hub
+                Strategically located near Adithya Techno Park and KGISL Campus in Coimbatore's thriving tech and education hub
               </p>
             </div>
           </div>
@@ -77,7 +97,7 @@ const Location = () => {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="LiveSmart Location Map"
+                  title="The Royal Nest Studio House Location Map"
                 />
               </div>
               <div className="p-6">
@@ -86,7 +106,7 @@ const Location = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Our Address</h3>
                     <p className="text-muted-foreground">
-                      Near Adithya Techno Park, Saravanampatti, Coimbatore, Tamil Nadu 641035
+                      The Royal Nest Studio House, Near Adithya Techno Park, Saravanampatti, Coimbatore, Tamil Nadu 641035
                     </p>
                   </div>
                 </div>
@@ -102,7 +122,7 @@ const Location = () => {
               What's Nearby
             </h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {nearbyPlaces.map((category, index) => {
                 const Icon = category.icon;
                 return (
@@ -115,8 +135,8 @@ const Location = () => {
                     </div>
                     <ul className="space-y-2">
                       {category.places.map((place, idx) => (
-                        <li key={idx} className="flex items-center text-muted-foreground">
-                          <span className="h-1.5 w-1.5 rounded-full bg-primary mr-3 flex-shrink-0" />
+                        <li key={idx} className="flex items-start text-muted-foreground text-sm">
+                          <span className="h-1.5 w-1.5 rounded-full bg-primary mr-3 flex-shrink-0 mt-1.5" />
                           {place}
                         </li>
                       ))}
@@ -133,23 +153,20 @@ const Location = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold text-center mb-8">
-                Why Our Location is Perfect
+                Safe Neighbourhood with Excellent Connectivity
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Saravanampatti has become Coimbatore's premier destination for tech professionals 
-                  and students. Our property puts you right in the center of this dynamic area.
+                  <strong>The Royal Nest Studio House</strong> is in Saravanampatti's safest areas, chosen for our women-only property. 
+                  The neighbourhood around Adithya Techno Park and KGISL Campus is known for its professional environment and safety.
                 </p>
                 <p>
-                  With Adithya Techno Park just minutes away, your daily commute becomes a breeze. 
-                  Multiple colleges and training centers are within easy reach, making it ideal for 
-                  students pursuing higher education or professional courses.
+                  <strong>Walking Distance:</strong> Within walking distance from KG College Bus Stop for convenient daily commutes. 
+                  Rapido, Ola, and Uber are available 24/7.
                 </p>
                 <p>
-                  The area boasts excellent connectivity with regular bus services, easy access to 
-                  the airport, and proximity to Coimbatore's city center. Shopping, dining, and 
-                  entertainment options are all nearby, ensuring you have everything you need for 
-                  a comfortable lifestyle.
+                  <strong>Shopping & Entertainment:</strong> Fun Republic Mall (2 km) and Prozone Mall (3 km) offer shopping and dining. 
+                  Local markets and essentials within 1 km.
                 </p>
               </div>
             </div>

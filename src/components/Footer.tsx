@@ -12,10 +12,13 @@ const Footer = () => {
               <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                 <Home className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="font-bold text-xl">LiveSmart</span>
+              <div className="flex flex-col">
+                <span className="font-bold text-lg leading-tight">The Royal Nest</span>
+                <span className="text-xs text-primary leading-tight">Studio House</span>
+              </div>
             </div>
             <p className="text-sm text-muted-foreground">
-              Your home away from home in Saravanampatti, Coimbatore. Modern co-living spaces designed for comfort and community.
+              A women-only property in Saravanampatti, Coimbatore. Premium living spaces designed for safety, comfort and community. Opened September 2025.
             </p>
           </div>
 
@@ -55,14 +58,14 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
-                <a href="mailto:info@livesmart.com" className="text-muted-foreground hover:text-primary transition-smooth">info@livesmart.com</a>
+                <a href="mailto:info@theroyalnest.com" className="text-muted-foreground hover:text-primary transition-smooth">info@theroyalnest.com</a>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} LiveSmart. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} The Royal Nest Studio House. All rights reserved.</p>
         </div>
       </div>
     </footer>

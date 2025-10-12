@@ -12,11 +12,14 @@ const About = () => {
         <section className="py-20 gradient-warm">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
+              <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                👩 Women-Only Property
+              </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                About LiveSmart
+                About The Royal Nest Studio House
               </h1>
               <p className="text-xl text-muted-foreground">
-                Creating a community-driven home for students and professionals in Coimbatore's tech hub
+                Creating a safe, premium living space for women students and professionals in Coimbatore's tech hub
               </p>
             </div>
           </div>
@@ -29,18 +32,23 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  LiveSmart was born from a simple observation: many students and young professionals 
-                  relocating to Coimbatore's tech hub struggled to find quality, affordable accommodation 
-                  that felt like home.
+                  <strong>The Royal Nest Studio House</strong> opened its doors in <strong>September 2025</strong> with a clear mission: 
+                  to provide safe, comfortable, and premium accommodation exclusively for women in Coimbatore's thriving tech hub.
                 </p>
                 <p>
-                  Located in the heart of Saravanampatti, near Adithya Techno Park and major educational 
-                  institutions, we've created more than just a place to stay. We've built a community where 
-                  like-minded individuals can live, learn, and grow together.
+                  Built over an impressive <strong>11,000 sq ft area</strong> with <strong>2,500 sq ft dedicated parking space</strong>, 
+                  our newly constructed property features 15 thoughtfully designed rooms across ground, 1st, and 2nd floors. 
+                  We offer covered parking for two-wheelers and free public parking for four-wheelers.
                 </p>
                 <p>
-                  Our properties are designed with the modern professional and student in mind – balancing 
-                  privacy with community, comfort with affordability, and convenience with quality.
+                  Located in the heart of Saravanampatti, near Adithya Techno Park and KGISL Campus, we've created more than just 
+                  a place to stay. We've built a safe, welcoming community where women students and professionals can live, learn, 
+                  and grow together with complete peace of mind.
+                </p>
+                <p>
+                  Every aspect of The Royal Nest is designed with modern women in mind – balancing privacy with community, 
+                  safety with freedom, and comfort with quality. Our women-only policy ensures a respectful, secure environment 
+                  where residents can focus on their education and careers.
                 </p>
               </div>
             </div>

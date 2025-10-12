@@ -45,7 +45,7 @@ const Index = () => {
               Ready to Make This Your Home?
             </h2>
             <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
-              Join our community of students and professionals. Schedule a visit today and experience the LiveSmart difference.
+              Join our community of women students and professionals at The Royal Nest Studio House. Schedule a visit today and experience safe, comfortable living.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact">

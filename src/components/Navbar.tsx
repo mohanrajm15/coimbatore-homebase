@@ -31,7 +31,10 @@ const Navbar = () => {
             <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
               <Home className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="font-bold text-xl">LiveSmart</span>
+            <div className="flex flex-col">
+              <span className="font-bold text-lg leading-tight">The Royal Nest</span>
+              <span className="text-xs text-primary leading-tight">Women Only</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
