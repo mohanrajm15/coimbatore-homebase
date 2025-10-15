@@ -6,22 +6,6 @@ import { Link } from "react-router-dom";
 
 const pricingPlans = [
   {
-    title: "Deluxe Twin Sharing",
-    rooms: "2 rooms available",
-    size: "17 ft × 10 ft",
-    deposit: "₹11,000",
-    description: "Perfect for budget-conscious students",
-    features: [
-      "Twin/triple sharing room",
-      "Shared bathroom facilities",
-      "WiFi & power backup",
-      "Common kitchen access",
-      "Study lounge access",
-      "Weekly housekeeping"
-    ],
-    recommended: false
-  },
-  {
     title: "Studio Room",
     price: "₹8,000",
     deposit: "₹16,000",
@@ -84,7 +68,7 @@ const Pricing = () => {
         {/* Pricing Cards */}
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {pricingPlans.map((plan, index) => (
                 <div 
                   key={index}
