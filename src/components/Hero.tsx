@@ -5,8 +5,8 @@ import heroImage from "@/assets/hero-coliving.jpg";
 
 const Hero = () => {
   const handleWhatsApp = () => {
-    const phoneNumber = "919876543210";
-    const message = encodeURIComponent("Hi! I'm interested in learning more about your long-stay rental properties.");
+    const phoneNumber = "919003819039";
+    const message = encodeURIComponent("Hello. I am interested");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 
