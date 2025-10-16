@@ -19,7 +19,7 @@ const pricingPlans = [
       "AC available",
       "Balcony access",
       "Power backup",
-      "Housekeeping"
+      "Housekeeping",
       "Dedicated parking"
     ],
     recommended: true
