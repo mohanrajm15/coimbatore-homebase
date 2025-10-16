@@ -4,14 +4,14 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Priya Sharma",
+    name: "Priyanka M",
     role: "Software Engineer at KGISL",
     image: "PS",
     rating: 5,
-    text: "Moving to Coimbatore for work was stressful, but LiveSmart made it so easy. The location is perfect - just 10 minutes from my office. The community here is amazing, and I've made some great friends!"
+    text: "Moving to Coimbatore for work was stressful, but The Royal Nest Studio House made it so easy. The location is perfect - just 10 minutes from my office. The community here is amazing, and I've made some great friends!"
   },
   {
-    name: "Rahul Kumar",
+    name: "Uma krishnan",
     role: "Student at SNS College",
     image: "RK",
     rating: 5,
@@ -22,10 +22,10 @@ const testimonials = [
     role: "Business Analyst",
     image: "AR",
     rating: 5,
-    text: "The 1BHK is spacious and well-maintained. Love having my own kitchen! The management is very responsive, and the area has everything I need nearby. Worth every rupee."
+    text: "The Studio room is spacious and well-maintained. Love having my own kitchen! The management is very responsive, and the area has everything I need nearby. Worth every rupee."
   },
   {
-    name: "Karthik Venkat",
+    name: "Anu Venkat",
     role: "Corporate Intern",
     image: "KV",
     rating: 5,
@@ -39,7 +39,7 @@ const testimonials = [
     text: "Working from home needs good internet and a quiet space - got both here! The community is respectful, and the common areas are perfect for taking breaks. Feels like home."
   },
   {
-    name: "Arjun Menon",
+    name: "Arthi Manohar",
     role: "Graduate Student",
     image: "AM",
     rating: 5,

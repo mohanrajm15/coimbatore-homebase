@@ -18,7 +18,7 @@ const features = [
   },
   {
     icon: Coffee,
-    title: "Self-Cooking Kitchen",
+    title: "Kitchen in all rooms",
     description: "Every room has a kitchen area for self-cooking with personal appliances"
   },
   {
@@ -39,7 +39,7 @@ const features = [
   {
     icon: Sparkles,
     title: "Housekeeping",
-    description: "Twice-weekly cleaning service included, additional cleaning on request"
+    description: "Twice a week cleaning service included, additional cleaning on request"
   }
 ];
 
@@ -52,7 +52,7 @@ const FeaturesSection = () => {
             Everything You Need for Safe & Comfortable Living
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Newly opened in September 2025 with premium amenities across 11,000 sq ft
+            Newly opened in September 2025 with premium amenities across a built up area of 11,000 sq.ft
           </p>
         </div>
 

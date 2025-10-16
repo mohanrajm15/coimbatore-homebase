@@ -13,7 +13,7 @@ const roomTypes = [
     description: "Twin or triple sharing with bedroom and kitchen area",
     count: "8 rooms available",
     size: "17 ft × 10 ft",
-    configurations: "2 twin sharing + 6 triple sharing",
+    configurations: "2 Twin sharing rooms + 6 Triple sharing rooms",
     features: [
       "Single beds (6.5 ft × 3.2 ft)",
       "Attached bathroom with geyser",
@@ -23,7 +23,7 @@ const roomTypes = [
       "Individual cupboard with lock",
       "Working desk and chair",
       "Window with mosquito net",
-      "Socket near bed, mirror",
+      "Socket near bed, Mirror",
       "Bed, pillow, covers included"
     ]
   },
@@ -66,7 +66,7 @@ const Rooms = () => {
                 Choose Your Perfect Room
               </h1>
               <p className="text-xl text-muted-foreground">
-                Premium Deluxe and Suite rooms across ground, 1st, and 2nd floors. All rooms feature self-cooking facilities and spacious balconies.
+                Premium Deluxe and Suite rooms across ground, 1st, and 2nd floors. All rooms feature self-cooking facilities and spacious open-air balconies with great views.
               </p>
             </div>
           </div>
@@ -134,12 +134,12 @@ const Rooms = () => {
                   "Open terrace for relaxation",
                   "Tile flooring throughout, granite stairs",
                   "Municipality water supply ('Nalla thanni')",
-                  "Key card room access control",
-                  "Washing machines on terrace with drying shed",
+                  "Key card electricity control",
+                  "Multiple Washing machines on terrace with drying shed",
                   "24/7 security personnel & property manager",
                   "Biometric building entry system",
-                  "20 CCTV cameras in common areas",
-                  "Twice-weekly housekeeping (+ on request)",
+                  "20 CCTV cameras in all common areas for safety",
+                  "Twice a week housekeeping (+ additional housekeeping on request)",
                   "Room door locks with keys provided"
                 ].map((amenity, index) => (
                   <div key={index} className="flex items-start">

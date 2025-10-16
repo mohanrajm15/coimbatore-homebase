@@ -11,14 +11,16 @@ const pricingPlans = [
     deposit: "₹16,000",
     description: "Ideal for students",
     features: [
-      "Private studio room",
+      "Private Bedroom",
+      "Kitchen facilities",
       "Attached bathroom",
       "Fully furnished",
       "High-speed WiFi",
+      "AC available",
+      "Balcony access",
       "Power backup",
-      "Regular housekeeping",
-      "Kitchen access",
-      "Priority parking"
+      "Housekeeping"
+      "Dedicated parking"
     ],
     recommended: true
   },
@@ -26,16 +28,18 @@ const pricingPlans = [
     title: "Studio Room",
     price: "₹12,000",
     deposit: "₹24,000",
-    description: "Best for working professionals",
+    description: "Best for working professional",
     features: [
-      "Private 1BHK unit",
+      "Private Bedroom",
       "Kitchen facilities",
       "Separate living area",
       "Attached bathroom",
       "Fully furnished",
-      "AC options available",
+      "High-speed WiFi",
+      "AC available",
       "Balcony access",
-      "Premium housekeeping",
+      "Power backup",
+      "Housekeeping",
       "Dedicated parking"
     ],
     recommended: false
@@ -124,7 +128,7 @@ const Pricing = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold text-center mb-12">
-                What's Included in All Plans
+                What's Included in All Rooms
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -132,11 +136,10 @@ const Pricing = () => {
                   "High-speed WiFi included",
                   "24/7 CCTV security",
                   "Power backup",
-                  "Water & electricity (fair usage)",
+                  "Municipality Water",
                   "Common area maintenance",
                   "Parking space",
-                  "Community support",
-                  "Flexible payment options"
+                  "Community support"
                 ].map((item, index) => (
                   <div key={index} className="flex items-center">
                     <Check className="h-5 w-5 text-primary mr-3 flex-shrink-0" />
@@ -156,7 +159,7 @@ const Pricing = () => {
               <div className="space-y-4 text-muted-foreground">
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Minimum Stay Period</h3>
-                  <p>All rentals require a minimum stay of 6 months.</p>
+                  <p>All rentals require a minimum stay of 3 months.</p>
                 </div>
                 
                 <div>
@@ -178,8 +181,8 @@ const Pricing = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Utilities</h3>
                   <p>
-                    Water and standard electricity usage included. 
-                    Excessive AC usage may incur additional charges (applicable for AC rooms only).
+                    Water usage included. 
+                    Electricity charges not included.
                   </p>
                 </div>
                 
