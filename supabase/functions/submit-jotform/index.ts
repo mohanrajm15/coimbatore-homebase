@@ -23,19 +23,24 @@ serve(async (req) => {
 
     console.log('Submitting to Jotform:', { name, phone, duration });
 
-    // Submit to Jotform API
-    const formData = new FormData();
-    formData.append('apiKey', JOTFORM_API_KEY);
-    formData.append('submission[3]', name); // Assuming field ID 3 is name
-    formData.append('submission[4]', phone); // Assuming field ID 4 is phone
-    formData.append('submission[5]', duration); // Assuming field ID 5 is duration
-    formData.append('submission[6]', message); // Assuming field ID 6 is message
+    // Submit to Jotform API using URLSearchParams
+    const params = new URLSearchParams();
+    params.append('apiKey', JOTFORM_API_KEY);
+    params.append('submission[3]', name); // Assuming field ID 3 is name
+    params.append('submission[4]', phone); // Assuming field ID 4 is phone
+    params.append('submission[5]', duration); // Assuming field ID 5 is duration
+    if (message) {
+      params.append('submission[6]', message); // Assuming field ID 6 is message
+    }
 
     const response = await fetch(
       `https://api.jotform.com/form/${JOTFORM_FORM_ID}/submissions`,
       {
         method: 'POST',
-        body: formData,
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: params.toString(),
       }
     );
 
