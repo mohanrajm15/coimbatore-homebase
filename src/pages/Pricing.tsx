@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 
 const pricingPlans = [
   {
-    title: "Studio Room",
+    title: "Deluxe Room",
     price: "₹8,000",
     deposit: "₹16,000",
-    description: "Ideal for working professionals",
+    description: "Ideal for students",
     features: [
       "Private studio room",
       "Attached bathroom",
@@ -23,10 +23,10 @@ const pricingPlans = [
     recommended: true
   },
   {
-    title: "1BHK Apartment",
+    title: "Studio Room",
     price: "₹12,000",
     deposit: "₹24,000",
-    description: "Best for couples or premium comfort",
+    description: "Best for working professionals",
     features: [
       "Private 1BHK unit",
       "Kitchen facilities",
