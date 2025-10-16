@@ -1,17 +1,27 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import studioImage from "@/assets/room-studio.jpg";
-import bhkImage from "@/assets/room-1bhk.jpg";
-import commonImage from "@/assets/common-area.jpg";
-import heroImage from "@/assets/hero-coliving.jpg";
+import bedroomSingle from "@/assets/bedroom-single.jpg";
+import bedroomTriple from "@/assets/bedroom-triple.jpg";
+import bedroomBalcony from "@/assets/bedroom-balcony.jpg";
+import livingDining from "@/assets/living-dining.jpg";
+import suiteBedroomLiving from "@/assets/suite-bedroom-living.jpg";
+import suiteLivingRoom from "@/assets/suite-living-room.jpg";
+import suiteStudyKitchen from "@/assets/suite-study-kitchen.jpg";
+import kitchen from "@/assets/kitchen.jpg";
+import refrigerator from "@/assets/refrigerator.jpg";
+import generator from "@/assets/generator.jpg";
 
 const galleryImages = [
-  { src: heroImage, title: "Modern Co-living Space", category: "Common Areas" },
-  { src: studioImage, title: "Studio Room", category: "Rooms" },
-  { src: bhkImage, title: "1BHK Apartment", category: "Rooms" },
-  { src: commonImage, title: "Shared Workspace", category: "Common Areas" },
-  { src: studioImage, title: "Study Area", category: "Amenities" },
-  { src: bhkImage, title: "Living Space", category: "Rooms" },
+  { src: bedroomSingle, title: "Deluxe Single Room", category: "Rooms" },
+  { src: bedroomTriple, title: "Triple Sharing Room", category: "Rooms" },
+  { src: bedroomBalcony, title: "Bedroom with Balcony", category: "Rooms" },
+  { src: livingDining, title: "Living & Dining Area", category: "Common Areas" },
+  { src: suiteLivingRoom, title: "Suite Living Room", category: "Rooms" },
+  { src: suiteBedroomLiving, title: "Suite - Bedroom & Living", category: "Rooms" },
+  { src: suiteStudyKitchen, title: "Study Area & Kitchen", category: "Common Areas" },
+  { src: kitchen, title: "Modern Kitchen", category: "Amenities" },
+  { src: refrigerator, title: "Refrigerator", category: "Amenities" },
+  { src: generator, title: "Power Backup Generator", category: "Amenities" },
 ];
 
 const Gallery = () => {

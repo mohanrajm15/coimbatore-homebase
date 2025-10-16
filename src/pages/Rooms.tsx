@@ -3,13 +3,13 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
-import studioImage from "@/assets/room-studio.jpg";
-import bhkImage from "@/assets/room-1bhk.jpg";
+import bedroomTriple from "@/assets/bedroom-triple.jpg";
+import suiteLivingRoom from "@/assets/suite-living-room.jpg";
 
 const roomTypes = [
   {
     title: "Deluxe Room",
-    image: studioImage,
+    image: bedroomTriple,
     description: "Twin or triple sharing with bedroom and kitchen area",
     count: "8 rooms available",
     size: "17 ft × 10 ft",
@@ -29,7 +29,7 @@ const roomTypes = [
   },
   {
     title: "Suite Room",
-    image: bhkImage,
+    image: suiteLivingRoom,
     description: "Premium space with bedroom, living area, and kitchen",
     count: "7 rooms available",
     size: "17 ft × 16 ft",
