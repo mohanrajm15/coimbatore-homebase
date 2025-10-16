@@ -108,7 +108,7 @@ const Testimonials = () => {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">150+</div>
+                <div className="text-4xl font-bold text-primary mb-2">25+</div>
                 <p className="text-muted-foreground">Happy Residents</p>
               </div>
               <div>
@@ -121,7 +121,7 @@ const Testimonials = () => {
               </div>
               <div>
                 <div className="text-4xl font-bold text-primary mb-2">3+</div>
-                <p className="text-muted-foreground">Years of Service</p>
+                <p className="text-muted-foreground">Years of Experience</p>
               </div>
             </div>
           </div>
@@ -134,7 +134,7 @@ const Testimonials = () => {
               Join Our Growing Community
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Experience the LiveSmart difference for yourself
+              Experience the Royal Nest Studio House difference for yourself
             </p>
             <a href="/contact">
               <button className="px-8 py-3 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-smooth">
