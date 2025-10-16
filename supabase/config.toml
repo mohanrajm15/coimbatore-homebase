@@ -1,1 +1,4 @@
 project_id = "fyisnwlmsvniowujnjwe"
+
+[functions.submit-jotform]
+verify_jwt = false

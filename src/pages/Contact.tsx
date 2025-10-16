@@ -31,13 +31,34 @@ const Contact = () => {
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     try {
       contactSchema.parse(formData);
       
-      // Here you would typically send the data to your backend
+      setIsSubmitting(true);
+      
+      // Submit to Jotform via backend function
+      const response = await fetch(
+        `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/submit-jotform`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        }
+      );
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to submit form');
+      }
+
       toast({
         title: "Message Sent!",
         description: "We'll get back to you within 24 hours.",
@@ -51,7 +72,15 @@ const Contact = () => {
           description: error.errors[0].message,
           variant: "destructive"
         });
+      } else {
+        toast({
+          title: "Submission Failed",
+          description: error instanceof Error ? error.message : "Please try again later",
+          variant: "destructive"
+        });
       }
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -127,8 +156,8 @@ const Contact = () => {
                     />
                   </div>
 
-                  <Button type="submit" className="w-full">
-                    Submit Enquiry
+                  <Button type="submit" className="w-full" disabled={isSubmitting}>
+                    {isSubmitting ? "Submitting..." : "Submit Enquiry"}
                   </Button>
                 </form>
 
