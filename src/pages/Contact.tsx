@@ -26,7 +26,7 @@ const Contact = () => {
   });
 
   const handleWhatsApp = () => {
-    const phoneNumber = "919003819039";
+    const phoneNumber = "919443461947";
     const message = encodeURIComponent("Hello. I am interested");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
@@ -198,8 +198,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">Phone</h3>
-                        <a href="tel:+919003819039" className="text-primary hover:underline">
-                          +91 90038 19039
+                        <a href="tel:+919443461947" className="text-primary hover:underline">
+                          +91 94434 61947
                         </a>
                       </div>
                     </div>
@@ -210,8 +210,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">Email</h3>
-                        <a href="mailto:info@theroyalnest.com" className="text-primary hover:underline">
-                          info@theroyalnest.com
+                        <a href="mailto:theroyalnest6666@gmail.com" className="text-primary hover:underline">
+                          theroyalnest6666@gmail.com
                         </a>
                       </div>
                     </div>
