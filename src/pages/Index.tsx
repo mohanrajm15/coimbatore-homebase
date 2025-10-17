@@ -5,21 +5,7 @@ import FeaturesSection from "@/components/FeaturesSection";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import exteriorFront from "@/assets/exterior-front.jpg";
-import roomTwin from "@/assets/room-interior-twin.jpg";
-import roomTriple from "@/assets/room-interior-triple.jpg";
-import roomStorage from "@/assets/room-interior-storage.jpg";
-import roomSuite1 from "@/assets/room-suite-1.jpg";
-import roomSuite2 from "@/assets/room-suite-2.jpg";
-import entranceDecor from "@/assets/entrance-decor.jpg";
-import exteriorSide from "@/assets/exterior-side.jpg";
+import propertyVideo from "@/assets/royal-nest-video.mp4";
 
 const Index = () => {
   return (
@@ -29,7 +15,7 @@ const Index = () => {
       <main className="flex-1">
         <Hero />
         
-        {/* Property Showcase Carousel */}
+        {/* Property Video */}
         <section className="py-16 bg-secondary/10">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
@@ -41,84 +27,20 @@ const Index = () => {
               </p>
             </div>
             <div className="max-w-5xl mx-auto">
-              <Carousel className="w-full">
-                <CarouselContent>
-                  <CarouselItem>
-                    <div className="relative aspect-[16/9] rounded-xl overflow-hidden shadow-large">
-                      <img 
-                        src={exteriorFront} 
-                        alt="The Royal Nest Studio House - Front exterior view of the modern women-only property"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="relative aspect-[16/9] rounded-xl overflow-hidden shadow-large">
-                      <img 
-                        src={entranceDecor} 
-                        alt="Decorated entrance of The Royal Nest Studio House with traditional welcome arch"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="relative aspect-[16/9] rounded-xl overflow-hidden shadow-large">
-                      <img 
-                        src={exteriorSide} 
-                        alt="Side view of The Royal Nest Studio House building with spacious balconies"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="relative aspect-[16/9] rounded-xl overflow-hidden shadow-large">
-                      <img 
-                        src={roomTwin} 
-                        alt="Deluxe triple sharing room with individual cupboards and balcony access"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="relative aspect-[16/9] rounded-xl overflow-hidden shadow-large">
-                      <img 
-                        src={roomTriple} 
-                        alt="Deluxe twin sharing room with balcony view and modern furnishing"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="relative aspect-[16/9] rounded-xl overflow-hidden shadow-large">
-                      <img 
-                        src={roomStorage} 
-                        alt="Suite room with TV, living area, and kitchen space"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="relative aspect-[16/9] rounded-xl overflow-hidden shadow-large">
-                      <img 
-                        src={roomSuite1} 
-                        alt="Suite room with spacious balcony and garden view"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="relative aspect-[16/9] rounded-xl overflow-hidden shadow-large">
-                      <img 
-                        src={roomSuite2} 
-                        alt="Deluxe twin sharing room with study desks and storage"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </CarouselItem>
-                </CarouselContent>
-                <CarouselPrevious className="left-4" />
-                <CarouselNext className="right-4" />
-              </Carousel>
+              <div className="relative aspect-[16/9] rounded-xl overflow-hidden shadow-large">
+                <video 
+                  src={propertyVideo}
+                  controls
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="w-full h-full object-cover"
+                  aria-label="Virtual tour video of The Royal Nest Studio House property"
+                >
+                  Your browser does not support the video tag.
+                </video>
+              </div>
             </div>
           </div>
         </section>
