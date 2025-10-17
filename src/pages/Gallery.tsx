@@ -14,11 +14,8 @@ import interiorStaircase from "@/assets/interior-staircase.jpg";
 import entranceDecor from "@/assets/entrance-decor.jpg";
 import exteriorSide from "@/assets/exterior-side.jpg";
 import exteriorFront from "@/assets/exterior-front.jpg";
-import commonArea from "@/assets/common-area.jpg";
-import roomInteriorTwin from "@/assets/room-interior-twin.jpg";
 import roomInteriorStorage from "@/assets/room-interior-storage.jpg";
 import roomInteriorTriple from "@/assets/room-interior-triple.jpg";
-import room1bhk from "@/assets/room-1bhk.jpg";
 
 const galleryImages = [
   { src: bedroomSingle, title: "Twin Sharing Room", category: "Rooms" },
@@ -35,10 +32,8 @@ const galleryImages = [
   { src: entranceDecor, title: "Entrance Decoration", category: "Exterior" },
   { src: exteriorSide, title: "Building Side View", category: "Exterior" },
   { src: exteriorFront, title: "Building Front View", category: "Exterior" },
-  { src: commonArea, title: "Event & Dining Space", category: "Common Areas" },
   { src: roomInteriorStorage, title: "Room with Study Area", category: "Rooms" },
   { src: roomInteriorTriple, title: "Room Interior Detail", category: "Rooms" },
-  { src: room1bhk, title: "1BHK Interior", category: "Rooms" },
 ];
 
 const Gallery = () => {
