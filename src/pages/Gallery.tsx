@@ -21,7 +21,7 @@ import roomInteriorTriple from "@/assets/room-interior-triple.jpg";
 import room1bhk from "@/assets/room-1bhk.jpg";
 
 const galleryImages = [
-  { src: bedroomSingle, title: "Deluxe Single Room", category: "Rooms" },
+  { src: bedroomSingle, title: "Twin Sharing Room", category: "Rooms" },
   { src: bedroomTriple, title: "Triple Sharing Room", category: "Rooms" },
   { src: bedroomBalcony, title: "Bedroom with Balcony", category: "Rooms" },
   { src: livingDining, title: "Living & Dining Area", category: "Common Areas" },
@@ -36,7 +36,6 @@ const galleryImages = [
   { src: exteriorSide, title: "Building Side View", category: "Exterior" },
   { src: exteriorFront, title: "Building Front View", category: "Exterior" },
   { src: commonArea, title: "Event & Dining Space", category: "Common Areas" },
-  { src: roomInteriorTwin, title: "Room with TV Unit", category: "Rooms" },
   { src: roomInteriorStorage, title: "Room with Study Area", category: "Rooms" },
   { src: roomInteriorTriple, title: "Room Interior Detail", category: "Rooms" },
   { src: room1bhk, title: "1BHK Interior", category: "Rooms" },
