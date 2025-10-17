@@ -61,7 +61,7 @@ const Testimonials = () => {
                 What Our Residents Say
               </h1>
               <p className="text-xl text-muted-foreground">
-                Real experiences from students and professionals who call LiveSmart home
+                Real experiences from students and professionals who call The Royal Nest Studio House home
               </p>
             </div>
           </div>
