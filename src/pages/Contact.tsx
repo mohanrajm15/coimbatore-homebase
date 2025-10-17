@@ -41,27 +41,22 @@ const Contact = () => {
       
       setIsSubmitting(true);
       
-      // Submit to Jotform via backend function
-      const response = await fetch(
-        `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/submit-jotform`,
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(formData),
-        }
-      );
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || 'Failed to submit form');
+      // Format message for WhatsApp
+      const phoneNumber = "919443461947";
+      let whatsappMessage = `*New Enquiry from Website*\n\n`;
+      whatsappMessage += `*Name:* ${formData.name}\n`;
+      whatsappMessage += `*Phone:* ${formData.phone}\n`;
+      whatsappMessage += `*Duration of Stay:* ${formData.duration}\n`;
+      if (formData.message) {
+        whatsappMessage += `*Message:* ${formData.message}`;
       }
+      
+      const encodedMessage = encodeURIComponent(whatsappMessage);
+      window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
 
       toast({
-        title: "Message Sent!",
-        description: "We'll get back to you within 24 hours.",
+        title: "Opening WhatsApp",
+        description: "Your enquiry will be sent via WhatsApp.",
       });
       
       setFormData({ name: "", phone: "", duration: "", message: "" });
@@ -70,12 +65,6 @@ const Contact = () => {
         toast({
           title: "Validation Error",
           description: error.errors[0].message,
-          variant: "destructive"
-        });
-      } else {
-        toast({
-          title: "Submission Failed",
-          description: error instanceof Error ? error.message : "Please try again later",
           variant: "destructive"
         });
       }
