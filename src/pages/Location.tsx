@@ -7,28 +7,35 @@ const nearbyPlaces = [
     icon: Building2,
     title: "IT Parks & Tech Companies",
     places: [
-      "Adithya Techno Park - 0.5 km (5 min walk)",
-      "KGISL Campus - 2 km (10 min)",
-      "CHIL-SEZ - 3 km (12 min)",
-      "Multiple IT companies in Saravanampatti"
+      "Adithya Techno Park - 0.5 km (Blue Yonder, Integra Global, Sanumas, ApplogiQ, Deloitte, Accenture)",
+      "KGISL Tech Park, Saravanampatti - 3.5 km (KGISL, Hexaware, Payoda, Cognizant)",
+      "CHIL SEZ IT Park, Keeranatham - 2 km (Bosch, Amazon, EbixCash, Verticurl, Cotiviti, Birlasoft)",
+      "India Land Tech Park, Keeranatham - 2 km (Amazon, RedHat, Bank of America, Bosch)",
+      "KCT Tech Park, Thudiyalur Road - 2.5 km (Cognizant, HCL, ThoughtWorks, Ultramain Systems)",
+      "TIDEL Park, Peelamedu - 9 km (Infosys, Wipro, State Street, HCL)"
     ]
   },
   {
     icon: GraduationCap,
     title: "Educational Institutions",
     places: [
-      "SNS College - 4 km (15 min)",
-      "Kumaraguru College of Technology - 5 km (20 min)",
-      "Various training centers nearby"
+      "Adithya Institute of Technology - 0.6 km",
+      "Adithya Public Matric School - 0.9 km",
+      "The Indian Public School - 1.5 km",
+      "K V Institute of Management & Information Studies - 1.8 km",
+      "SNS College of Engineering - 1.8 km",
+      "Manchester International School - 2.5 km",
+      "Kumaraguru College of Technology (KCT) - 3 km"
     ]
   },
   {
     icon: Bus,
     title: "Transport & Connectivity",
     places: [
-      "KG College Bus Stop - Walking distance",
-      "Multiple bus routes available",
-      "Easy access to Coimbatore Airport - 15 km",
+      "Local Bus Connectivity - 0-0.5 km (Frequent routes to Peelamedu, Gandhipuram & Airport)",
+      "Gandhipuram Bus Stand - 11 km (Major intercity hub; 20-30 mins drive)",
+      "Coimbatore International Airport - 12 km (20-25 minutes via Sathy Road)",
+      "Coimbatore Junction Railway Station - 13 km (Main city railway terminal)",
       "Rapido, Ola, Uber readily available"
     ]
   },
@@ -36,8 +43,9 @@ const nearbyPlaces = [
     icon: ShoppingBag,
     title: "Shopping & Retail",
     places: [
-      "Fun Republic Mall - 2 km (shopping & cinema)",
-      "Prozone Mall - 3 km (10 min)",
+      "Prozone Mall, Saravanampatti - 2 km",
+      "Fun Republic Mall, Peelamedu - 9 km",
+      "Brookefields Mall, RS Puram - 11 km",
       "Local markets and grocery stores within 1 km",
       "Banks and ATMs within 500m"
     ]
