@@ -173,7 +173,7 @@ const Location = () => {
                   Rapido, Ola, and Uber are available 24/7.
                 </p>
                 <p>
-                  <strong>Shopping & Entertainment:</strong> Fun Republic Mall (2 km) and Prozone Mall (3 km) offer shopping and dining. 
+                  <strong>Shopping & Entertainment:</strong> Prozone Mall (2 km) offers shopping and dining. 
                   Local markets and essentials within 1 km.
                 </p>
               </div>
