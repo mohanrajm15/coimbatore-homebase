@@ -5,7 +5,7 @@ import heroImage from "@/assets/hero-coliving.jpg";
 
 const Hero = () => {
   const handleWhatsApp = () => {
-    const phoneNumber = "919443461947";
+    const phoneNumber = "919629313135";
     const message = encodeURIComponent("Hello. I am interested");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };

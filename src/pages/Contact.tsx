@@ -26,7 +26,7 @@ const Contact = () => {
   });
 
   const handleWhatsApp = () => {
-    const phoneNumber = "919443461947";
+    const phoneNumber = "919629313135";
     const message = encodeURIComponent("Hello. I am interested");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
@@ -42,7 +42,7 @@ const Contact = () => {
       setIsSubmitting(true);
       
       // Format message for WhatsApp
-      const phoneNumber = "919443461947";
+      const phoneNumber = "919629313135";
       let whatsappMessage = `*New Enquiry from Website*\n\n`;
       whatsappMessage += `*Name:* ${formData.name}\n`;
       whatsappMessage += `*Phone:* ${formData.phone}\n`;
@@ -187,8 +187,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">Phone</h3>
-                        <a href="tel:+919443461947" className="text-primary hover:underline">
-                          +91 94434 61947
+                        <a href="tel:+919629313135" className="text-primary hover:underline">
+                          +91 96293 13135
                         </a>
                       </div>
                     </div>
