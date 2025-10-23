@@ -18,7 +18,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
-              A women-only property in Saravanampatti, Coimbatore. Premium living spaces designed for safety, comfort and community. Opened September 2025.
+              A women-only property at 3, Mahalakshmi Garden, Phase III, near Adithya Techno Park, Saravanampatti, Coimbatore - 641035. Premium living spaces designed for safety, comfort and community. Opened September 2025.
             </p>
           </div>
 
@@ -50,7 +50,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-muted-foreground">Near Adithya Techno Park, Saravanampatti, Coimbatore</span>
+                <span className="text-muted-foreground">3, Mahalakshmi Garden, Phase III, near Adithya Techno Park, Saravanampatti, Coimbatore - 641035</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />

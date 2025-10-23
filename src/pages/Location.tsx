@@ -86,7 +86,7 @@ const Location = () => {
                 Prime Location in Saravanampatti
               </h1>
               <p className="text-xl text-muted-foreground">
-                Strategically located near Adithya Techno Park and KGISL Campus in Coimbatore's thriving tech and education hub
+                Located at 3, Mahalakshmi Garden, Phase III, near Adithya Techno Park, Saravanampatti, Coimbatore - 641035. Strategically positioned in Coimbatore's thriving tech and education hub.
               </p>
             </div>
           </div>
@@ -114,7 +114,7 @@ const Location = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Our Address</h3>
                     <p className="text-muted-foreground">
-                      The Royal Nest Studio House, Near Adithya Techno Park, Saravanampatti, Coimbatore, Tamil Nadu 641035
+                      The Royal Nest Studio House, 3, Mahalakshmi Garden, Phase III, near Adithya Techno Park, Saravanampatti, Coimbatore - 641035
                     </p>
                   </div>
                 </div>

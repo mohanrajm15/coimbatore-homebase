@@ -30,10 +30,10 @@ const Hero = () => {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             The Royal Nest Studio House
-            <span className="block text-primary mt-2">Near Adithya Techno Park</span>
+            <span className="block text-primary mt-2">Mahalakshmi Garden, Saravanampatti</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8">
-            A premium women-only property in Saravanampatti. Safe, comfortable, and modern long-stay living for students & working professionals. Built over 11,000 sq ft with spacious common areas.
+            A premium women-only property at 3, Mahalakshmi Garden, Phase III, near Adithya Techno Park, Saravanampatti, Coimbatore - 641035. Safe, comfortable, and modern long-stay living for students & working professionals. Built over 11,000 sq ft with spacious common areas.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link to="/contact">
