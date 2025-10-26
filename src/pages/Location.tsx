@@ -98,7 +98,7 @@ const Location = () => {
             <div className="bg-card rounded-2xl overflow-hidden shadow-large">
               <div className="aspect-video bg-muted flex items-center justify-center">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1234567890123!2d77.0123456789!3d11.0789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDA0JzQ0LjAiTiA3N8KwMDAnNDQuOSJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0895786234567!2d76.9966005!3d11.0817891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f70e72bc607d%3A0xde57eb519158db31!2sThe%20Royal%20Nest%20Studio%20House%2C%20Saravanampatti!5e0!3m2!1sen-GB!2sin!4v1234567890123!5m2!1sen-GB!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -114,7 +114,7 @@ const Location = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Our Address</h3>
                     <p className="text-muted-foreground">
-                      The Royal Nest Studio House, Near Adithya Techno Park, Saravanampatti, Coimbatore, Tamil Nadu 641035
+                      The Royal Nest Studio House, 3, Mahalakshmi Garden Phase III, near Adithya Techno Park, Saravanampatti, Coimbatore - 641035
                     </p>
                   </div>
                 </div>
