@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 
 const pricingPlans = [
   {
-    title: "Deluxe Room",
-    price: "₹8,000",
-    deposit: "₹16,000",
+    title: "Deluxe Room (Twin sharing)",
+    price: "₹8,500",
+    deposit: "₹10,000",
     description: "Ideal for students",
     features: [
       "Private Bedroom",
@@ -21,13 +21,30 @@ const pricingPlans = [
       "Power backup",
       "Housekeeping",
       "Dedicated parking"
-    ],
-    recommended: true
+    ]
   },
   {
-    title: "Studio Room",
-    price: "₹12,000",
-    deposit: "₹24,000",
+    title: "Deluxe Room (Triple sharing)",
+    price: "₹9,500",
+    deposit: "₹10,000",
+    description: "Ideal for students",
+    features: [
+      "Private Bedroom",
+      "Kitchen facilities",
+      "Attached bathroom",
+      "Fully furnished",
+      "High-speed WiFi",
+      "AC available",
+      "Balcony access",
+      "Power backup",
+      "Housekeeping",
+      "Dedicated parking"
+    ]
+  },
+  {
+    title: "Studio Room (Triple sharing)",
+    price: "₹11,500",
+    deposit: "₹10,000",
     description: "Best for working professional",
     features: [
       "Private Bedroom",
@@ -41,8 +58,7 @@ const pricingPlans = [
       "Power backup",
       "Housekeeping",
       "Dedicated parking"
-    ],
-    recommended: false
+    ]
   }
 ];
 
@@ -72,22 +88,12 @@ const Pricing = () => {
         {/* Pricing Cards */}
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {pricingPlans.map((plan, index) => (
                 <div 
                   key={index}
-                  className={`relative bg-card rounded-2xl p-8 shadow-medium hover:shadow-large transition-smooth ${
-                    plan.recommended ? 'border-2 border-primary' : ''
-                  }`}
+                  className="relative bg-card rounded-2xl p-8 shadow-medium hover:shadow-large transition-smooth border-2 border-primary"
                 >
-                  {plan.recommended && (
-                    <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                      <span className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold">
-                        Recommended
-                      </span>
-                    </div>
-                  )}
-                  
                   <div className="text-center mb-6">
                     <h3 className="text-2xl font-bold mb-2">{plan.title}</h3>
                     <p className="text-muted-foreground text-sm mb-4">{plan.description}</p>
@@ -110,10 +116,7 @@ const Pricing = () => {
                   </ul>
 
                   <Link to="/contact">
-                    <Button 
-                      className="w-full"
-                      variant={plan.recommended ? "default" : "outline"}
-                    >
+                    <Button className="w-full">
                       Get Started
                     </Button>
                   </Link>
