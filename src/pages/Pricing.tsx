@@ -169,7 +169,7 @@ const Pricing = () => {
                   <h3 className="font-semibold text-foreground mb-2">Security Deposit</h3>
                   <p>
                     Refundable security deposit equivalent to 2 months' rent. 
-                    Refunded within 30 days of checkout after deducting any damages.
+                    Refunded within 1 week of checkout after deducting for damages (if any).
                   </p>
                 </div>
                 
@@ -185,7 +185,7 @@ const Pricing = () => {
                   <h3 className="font-semibold text-foreground mb-2">Utilities</h3>
                   <p>
                     Water usage included. 
-                    Electricity charges not included.
+                    Electricity charges not included. Electricity charges to be paid every 2 months based on the actual usage.
                   </p>
                 </div>
                 
