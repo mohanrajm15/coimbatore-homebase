@@ -174,9 +174,9 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold mb-1">Address</h3>
                         <p className="text-muted-foreground">
-                          3, Mahalakshmi Garden, Phase III,<br />
-                          near Adithya Techno Park,<br />
-                          Saravanampatti, Coimbatore - 641035
+                          Near Adithya Techno Park<br />
+                          Saravanampatti, Coimbatore<br />
+                          Tamil Nadu 641035
                         </p>
                       </div>
                     </div>

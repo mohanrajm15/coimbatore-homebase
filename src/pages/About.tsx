@@ -41,7 +41,7 @@ const About = () => {
                   We offer covered parking for two-wheelers and free public parking for four-wheelers.
                 </p>
                 <p>
-                  Located at 3, Mahalakshmi Garden, Phase III, near Adithya Techno Park, Saravanampatti, Coimbatore - 641035, we've created more than just 
+                  Located in the heart of Saravanampatti, near Adithya Techno Park and KGISL Campus, we've created more than just 
                   a place to stay. We've built a safe, welcoming community where women students and professionals can live, learn, 
                   and grow together with complete peace of mind.
                 </p>
