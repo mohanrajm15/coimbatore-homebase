@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const pricingPlans = [
   {
-    title: "Deluxe Room (Twin sharing)",
+    title: "Deluxe Room (Triple sharing)",
     price: "₹8,500",
     deposit: "₹10,000",
     description: "Ideal for students",
@@ -24,7 +24,7 @@ const pricingPlans = [
     ]
   },
   {
-    title: "Deluxe Room (Triple sharing)",
+    title: "Deluxe Room (Twin sharing)",
     price: "₹9,500",
     deposit: "₹10,000",
     description: "Ideal for students",
