@@ -40,6 +40,8 @@ const Footer = () => {
               <li><Link to="/gallery" className="text-muted-foreground hover:text-primary transition-smooth">Gallery</Link></li>
               <li><Link to="/location" className="text-muted-foreground hover:text-primary transition-smooth">Location</Link></li>
               <li><Link to="/testimonials" className="text-muted-foreground hover:text-primary transition-smooth">Testimonials</Link></li>
+              <li><Link to="/faq" className="text-muted-foreground hover:text-primary transition-smooth">FAQ</Link></li>
+              <li><Link to="/blog" className="text-muted-foreground hover:text-primary transition-smooth">Blog</Link></li>
               <li><Link to="/contact" className="text-muted-foreground hover:text-primary transition-smooth">Contact</Link></li>
             </ul>
           </div>

@@ -1,4 +1,4 @@
-import { Home, Info, BedDouble, Image, MapPin, IndianRupee, MessageSquare, Phone, Menu } from "lucide-react";
+import { Home, Info, BedDouble, Image, MapPin, IndianRupee, MessageSquare, Phone, Menu, HelpCircle, BookOpen } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import {
@@ -16,6 +16,8 @@ const navigation = [
   { name: "Location", href: "/location", icon: MapPin },
   { name: "Pricing", href: "/pricing", icon: IndianRupee },
   { name: "Testimonials", href: "/testimonials", icon: MessageSquare },
+  { name: "FAQ", href: "/faq", icon: HelpCircle },
+  { name: "Blog", href: "/blog", icon: BookOpen },
   { name: "Contact", href: "/contact", icon: Phone },
 ];
 
