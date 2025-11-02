@@ -40,7 +40,7 @@ const PgNearCollegesSaravanampatti = () => {
 
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-muted-foreground mb-6">
-                  Finding a student-friendly ladies hostel near SNS and Kumaraguru colleges is essential for academic success. The Royal Nest Studio House in Saravanampatti offers ideal accommodation for female students with study-conducive environments. Our womens hostel provides quiet study areas, high-speed WiFi for online classes and research, and comfortable AC rooms for focused learning. Monthly rent starting at ₹6,000 makes our PG affordable for students on budget. Location matters significantly – we're conveniently located near both SNS College and Kumaraguru College of Technology with excellent bus connectivity. Students appreciate our common areas for group study and social interaction. The ladies hostel features a fully equipped kitchen where students can prepare nutritious meals affordably. Safety is prioritized with 24/7 security and women-only accommodation. Power backup ensures uninterrupted study during exams. Our furnished rooms with attached bathrooms provide privacy and comfort. Proximity to colleges reduces commute time, allowing more study hours. Student residents enjoy a supportive community atmosphere ideal for college life in Saravanampatti Coimbatore.
+                  Finding a student-friendly ladies hostel near SNS and Kumaraguru colleges is essential for academic success. The Royal Nest Studio House in Saravanampatti offers ideal accommodation for female students with study-conducive environments. Our womens hostel provides quiet study areas, high-speed WiFi for online classes and research, and comfortable AC rooms for focused learning. Monthly rent starting at ₹8,500 for Deluxe rooms (triple occupancy) makes our PG accessible for students on budget with a minimum 3-month stay. Location matters significantly – we're conveniently located near both SNS College and Kumaraguru College of Technology with excellent bus connectivity. Students appreciate our common areas for group study and social interaction. The ladies hostel features a fully equipped kitchen where students can prepare nutritious meals affordably. Safety is prioritized with 24/7 security and women-only accommodation. Power backup ensures uninterrupted study during exams. Our furnished rooms with attached bathrooms provide privacy and comfort. Proximity to colleges reduces commute time, allowing more study hours. Student residents enjoy a supportive community atmosphere ideal for college life in Saravanampatti Coimbatore.
                 </p>
 
                 <div className="bg-secondary/10 p-6 rounded-lg my-8">
@@ -49,7 +49,8 @@ const PgNearCollegesSaravanampatti = () => {
                     <li>✓ Quiet study areas and common spaces</li>
                     <li>✓ High-speed WiFi for online classes</li>
                     <li>✓ Near SNS and Kumaraguru colleges</li>
-                    <li>✓ Affordable rent starting at ₹6,000/month</li>
+                    <li>✓ Affordable rent starting at ₹8,500/month</li>
+                    <li>✓ Minimum stay: 3 months</li>
                     <li>✓ Common kitchen for budget meals</li>
                   </ul>
                 </div>

@@ -40,17 +40,17 @@ const LadiesHostelMonthlyRentCoimbatore = () => {
 
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-muted-foreground mb-6">
-                  Understanding ladies hostel monthly rent in Saravanampatti helps you budget effectively. In 2025, AC PG accommodation near tech parks ranges from ₹5,000 to ₹12,000 monthly. The Royal Nest Studio House offers competitive rates: ₹6,000 for triple sharing and ₹10,000 for single occupancy in our womens hostel. What's included matters – our rent covers WiFi, housekeeping, power backup, and security. Location significantly affects pricing; PGs near KCT Tech Park, KGISL, and Adithya Techno Park command premium rates due to convenience. Room type impacts cost too – Deluxe rooms are more affordable than Suite rooms with additional space. AC rooms cost more than non-AC but provide comfort in Coimbatore's climate. Amenities like attached bathrooms, furnished interiors, and common facilities justify higher rent. Our ladies hostel in Saravanampatti offers excellent value with transparent pricing and no hidden charges. Working women and students appreciate predictable monthly expenses. Compare multiple PGs before deciding, considering total value rather than just rent.
+                  Understanding ladies hostel monthly rent in Saravanampatti helps you budget effectively. In 2025, AC PG accommodation near tech parks ranges from ₹8,000 to ₹12,000 monthly. The Royal Nest Studio House offers competitive rates: ₹8,500 per month for Deluxe rooms and ₹11,500 per month for Suite rooms (both triple occupancy) in our womens hostel. What's included matters – our rent covers WiFi, housekeeping, power backup, and security. Location significantly affects pricing; PGs near KCT Tech Park, KGISL, and Adithya Techno Park command premium rates due to convenience. Room type impacts cost too – Deluxe rooms are more affordable than Suite rooms with additional space. AC rooms cost more than non-AC but provide comfort in Coimbatore's climate. Amenities like attached bathrooms, furnished interiors, and common facilities justify higher rent. Our ladies hostel in Saravanampatti offers excellent value with transparent pricing and no hidden charges. Working women and students appreciate predictable monthly expenses with a minimum 3-month stay requirement. Compare multiple PGs before deciding, considering total value rather than just rent.
                 </p>
 
                 <div className="bg-secondary/10 p-6 rounded-lg my-8">
                   <h2 className="text-2xl font-bold mb-4">The Royal Nest Pricing (2025)</h2>
                   <ul className="space-y-2">
-                    <li>✓ Triple Sharing: ₹6,000/month</li>
-                    <li>✓ Double Sharing: ₹8,000/month</li>
-                    <li>✓ Single Occupancy: ₹10,000/month</li>
+                    <li>✓ Deluxe Room: ₹8,500/month (triple occupancy)</li>
+                    <li>✓ Suite Room: ₹11,500/month (triple occupancy)</li>
                     <li>✓ Includes: WiFi, AC, Housekeeping, Security</li>
-                    <li>✓ No hidden charges or deposits surprises</li>
+                    <li>✓ Minimum stay: 3 months</li>
+                    <li>✓ No hidden charges or deposit surprises</li>
                   </ul>
                 </div>
               </div>
