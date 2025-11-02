@@ -1,8 +1,17 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Building2, Users, Target, Heart } from "lucide-react";
+import { useEffect } from "react";
 
 const About = () => {
+  useEffect(() => {
+    document.title = "About Us - Ladies Hostel Saravanampatti | The Royal Nest Studio House";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "Learn about The Royal Nest - premium womens hostel in Saravanampatti. Exclusively for women near tech parks and colleges in Coimbatore.");
+    }
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />

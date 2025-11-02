@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Star, Quote } from "lucide-react";
+import { useEffect } from "react";
 
 const testimonials = [
   {
@@ -48,6 +49,14 @@ const testimonials = [
 ];
 
 const Testimonials = () => {
+  useEffect(() => {
+    document.title = "Testimonials - Ladies Hostel Reviews Saravanampatti | The Royal Nest";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "Read reviews from residents of our womens hostel in Saravanampatti. Working women and students share their experience at The Royal Nest ladies PG.");
+    }
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />

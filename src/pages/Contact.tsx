@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { MessageCircle, Phone, Mail, MapPin } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { z } from "zod";
 
 const contactSchema = z.object({
@@ -17,6 +17,14 @@ const contactSchema = z.object({
 });
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "Contact Us - Ladies Hostel Saravanampatti | The Royal Nest";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "Contact The Royal Nest womens hostel in Saravanampatti. Book a visit to our ladies PG near tech parks in Coimbatore. Call or WhatsApp us today.");
+    }
+  }, []);
+
   const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: "",

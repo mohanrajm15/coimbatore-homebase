@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { MapPin, Bus, Building2, GraduationCap, ShoppingBag, Coffee } from "lucide-react";
+import { useEffect } from "react";
 
 const nearbyPlaces = [
   {
@@ -73,6 +74,14 @@ const nearbyPlaces = [
 ];
 
 const Location = () => {
+  useEffect(() => {
+    document.title = "Location - Ladies Hostel Near KCT Tech Park Saravanampatti | The Royal Nest";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.");
+    }
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />

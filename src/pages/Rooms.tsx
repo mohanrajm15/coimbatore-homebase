@@ -5,6 +5,7 @@ import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
 import bedroomTriple from "@/assets/bedroom-triple.jpg";
 import suiteLivingRoom from "@/assets/suite-living-room.jpg";
+import { useEffect } from "react";
 
 const roomTypes = [
   {
@@ -50,6 +51,14 @@ const roomTypes = [
 ];
 
 const Rooms = () => {
+  useEffect(() => {
+    document.title = "AC Rooms & Pricing - Ladies Hostel Saravanampatti | The Royal Nest";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "Explore AC ladies hostel rooms in Saravanampatti. Deluxe & Suite options for womens PG near Coimbatore tech parks. Fully furnished with WiFi & kitchen.");
+    }
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
