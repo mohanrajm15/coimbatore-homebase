@@ -12,6 +12,14 @@ const WorkingWomensHostelSaravanampatti = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Essential checklist for choosing a safe ladies hostel in Saravanampatti near KGISL and Adithya Techno Park. What working women should look for in a PG.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/blog/working-womens-hostel-saravanampatti');
   }, []);
 
   return (

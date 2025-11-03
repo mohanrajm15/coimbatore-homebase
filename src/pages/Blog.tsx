@@ -13,6 +13,14 @@ const Blog = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Expert guides on finding ladies hostels in Saravanampatti, Coimbatore. Tips for working women, students, and PG seekers near tech parks.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/blog');
   }, []);
 
   const blogPosts = [

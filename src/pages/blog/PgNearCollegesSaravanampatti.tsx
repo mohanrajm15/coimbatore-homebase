@@ -12,6 +12,14 @@ const PgNearCollegesSaravanampatti = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Find affordable ladies hostels near SNS and Kumaraguru colleges in Saravanampatti. Student-friendly PG with study areas, WiFi, and good connectivity.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/blog/pg-near-colleges-saravanampatti');
   }, []);
 
   return (

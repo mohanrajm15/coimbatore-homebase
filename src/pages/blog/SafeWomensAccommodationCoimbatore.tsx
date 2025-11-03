@@ -12,6 +12,14 @@ const SafeWomensAccommodationCoimbatore = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "How to choose a secure ladies hostel in Saravanampatti Coimbatore. Safety tips for women-only PG with 24/7 security and CCTV surveillance.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/blog/safe-womens-accommodation-coimbatore');
   }, []);
 
   return (

@@ -80,6 +80,14 @@ const Location = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/location');
   }, []);
 
   return (

@@ -23,6 +23,14 @@ const Contact = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Contact The Royal Nest womens hostel in Saravanampatti. Book a visit to our ladies PG near tech parks in Coimbatore. Call or WhatsApp us today.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/contact');
   }, []);
 
   const { toast } = useToast();

@@ -70,6 +70,14 @@ const Pricing = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Affordable ladies hostel monthly rent in Saravanampatti from ₹8,500. AC womens PG near tech parks Coimbatore with transparent pricing & no hidden fees.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/pricing');
   }, []);
 
   return (

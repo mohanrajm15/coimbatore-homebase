@@ -18,6 +18,14 @@ const FAQ = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Common questions about our ladies hostel near Saravanampatti Coimbatore. Monthly rent, facilities, safety, and proximity to tech parks answered.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/faq');
   }, []);
 
   const faqs = [

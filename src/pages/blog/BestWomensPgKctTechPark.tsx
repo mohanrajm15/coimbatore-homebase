@@ -12,6 +12,14 @@ const BestWomensPgKctTechPark = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Complete guide to finding the best ladies hostel near KCT Tech Park Saravanampatti. AC rooms, WiFi, security, and affordable monthly rent for working women.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/blog/best-womens-pg-kct-tech-park');
   }, []);
 
   return (

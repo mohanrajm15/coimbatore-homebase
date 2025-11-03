@@ -12,6 +12,14 @@ const LadiesHostelMonthlyRentCoimbatore = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Complete breakdown of ladies hostel monthly rent in Saravanampatti Coimbatore. AC PG prices, amenities included, and what affects rental costs in 2025.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/blog/ladies-hostel-monthly-rent-coimbatore');
   }, []);
 
   return (

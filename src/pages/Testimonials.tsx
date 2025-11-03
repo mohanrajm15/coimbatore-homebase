@@ -55,6 +55,14 @@ const Testimonials = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Read reviews from residents of our womens hostel in Saravanampatti. Working women and students share their experience at The Royal Nest ladies PG.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/testimonials');
   }, []);
 
   return (

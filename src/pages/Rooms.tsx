@@ -57,6 +57,14 @@ const Rooms = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Explore AC ladies hostel rooms in Saravanampatti. Deluxe & Suite options for womens PG near Coimbatore tech parks. Fully furnished with WiFi & kitchen.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/rooms');
   }, []);
 
   return (
