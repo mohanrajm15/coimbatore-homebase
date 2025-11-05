@@ -1,5 +1,6 @@
-import { Home, Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -9,9 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <Home className="h-5 w-5 text-primary-foreground" />
-              </div>
+              <img src={logo} alt="The Royal Nest Studio House Logo" className="h-10 w-10 object-contain" />
               <div className="flex flex-col">
                 <span className="font-bold text-lg leading-tight">The Royal Nest</span>
                 <span className="text-xs text-primary leading-tight">Studio House</span>

@@ -7,6 +7,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { useState } from "react";
+import logo from "@/assets/logo.png";
 
 const navigation = [
   { name: "Home", href: "/", icon: Home },
@@ -30,9 +31,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <Home className="h-5 w-5 text-primary-foreground" />
-            </div>
+            <img src={logo} alt="The Royal Nest Studio House Logo" className="h-10 w-10 object-contain" />
             <div className="flex flex-col">
               <span className="font-bold text-lg leading-tight">The Royal Nest</span>
               <span className="text-xs text-primary leading-tight">Women Only</span>
