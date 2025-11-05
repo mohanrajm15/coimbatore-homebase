@@ -20,6 +20,41 @@ const LadiesHostelMonthlyRentCoimbatore = () => {
       document.head.appendChild(canonicalLink);
     }
     canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/blog/ladies-hostel-monthly-rent-coimbatore');
+
+    // Add Article Schema
+    const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Ladies Hostel Monthly Rent in Coimbatore: Price Guide 2025",
+      "author": {
+        "@type": "Organization",
+        "name": "The Royal Nest Studio House"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "The Royal Nest Studio House",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://theroyalneststudiohouse.com/logo.png"
+        }
+      },
+      "datePublished": "2025-01-10",
+      "dateModified": "2025-01-10",
+      "description": "Complete breakdown of ladies hostel monthly rent in Saravanampatti Coimbatore. AC PG prices, amenities included.",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://theroyalneststudiohouse.com/blog/ladies-hostel-monthly-rent-coimbatore"
+      }
+    };
+
+    let articleSchemaScript = document.querySelector('script[data-schema="article"]');
+    if (!articleSchemaScript) {
+      articleSchemaScript = document.createElement('script');
+      articleSchemaScript.setAttribute('type', 'application/ld+json');
+      articleSchemaScript.setAttribute('data-schema', 'article');
+      document.head.appendChild(articleSchemaScript);
+    }
+    articleSchemaScript.textContent = JSON.stringify(articleSchema);
   }, []);
 
   return (

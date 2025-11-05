@@ -101,8 +101,11 @@ const Rooms = () => {
                   <div className="aspect-[4/3] overflow-hidden">
                     <img 
                       src={room.image} 
-                      alt={room.title}
+                      alt={`${room.title} - AC furnished room at ladies hostel in Saravanampatti Coimbatore`}
                       className="w-full h-full object-cover hover:scale-105 transition-smooth"
+                      loading="lazy"
+                      width="600"
+                      height="450"
                     />
                   </div>
                   <div className="p-6">

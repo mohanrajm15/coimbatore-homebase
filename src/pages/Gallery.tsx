@@ -44,6 +44,14 @@ const Gallery = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "View photos of our womens hostel in Saravanampatti. AC rooms, kitchen, balcony, and amenities at The Royal Nest ladies PG Coimbatore.");
     }
+    
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/gallery');
   }, []);
 
   return (
@@ -76,8 +84,11 @@ const Gallery = () => {
                 >
                   <img 
                     src={image.src} 
-                    alt={image.title}
+                    alt={`${image.title} - Ladies hostel in Saravanampatti Coimbatore`}
                     className="w-full h-full object-cover group-hover:scale-110 transition-smooth"
+                    loading="lazy"
+                    width="400"
+                    height="300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-smooth">
                     <div className="absolute bottom-0 left-0 right-0 p-6 text-white">

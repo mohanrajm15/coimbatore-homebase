@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img src={logo} alt="The Royal Nest Studio House Logo" className="h-10 w-10 object-contain" />
+              <img src={logo} alt="The Royal Nest Studio House Logo - Ladies Hostel Saravanampatti" className="h-10 w-10 object-contain" width="40" height="40" loading="lazy" />
               <div className="flex flex-col">
                 <span className="font-bold text-lg leading-tight">The Royal Nest</span>
                 <span className="text-xs text-primary leading-tight">Studio House</span>

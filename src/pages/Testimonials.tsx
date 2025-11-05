@@ -63,6 +63,43 @@ const Testimonials = () => {
       document.head.appendChild(canonicalLink);
     }
     canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/testimonials');
+
+    // Add Review and AggregateRating Schema
+    const reviewSchema = {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "The Royal Nest Studio House",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "25",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": testimonials.map(testimonial => ({
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": testimonial.name
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": testimonial.rating.toString(),
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": testimonial.text
+      }))
+    };
+
+    let reviewSchemaScript = document.querySelector('script[data-schema="reviews"]');
+    if (!reviewSchemaScript) {
+      reviewSchemaScript = document.createElement('script');
+      reviewSchemaScript.setAttribute('type', 'application/ld+json');
+      reviewSchemaScript.setAttribute('data-schema', 'reviews');
+      document.head.appendChild(reviewSchemaScript);
+    }
+    reviewSchemaScript.textContent = JSON.stringify(reviewSchema);
   }, []);
 
   return (

@@ -20,6 +20,41 @@ const PgNearCollegesSaravanampatti = () => {
       document.head.appendChild(canonicalLink);
     }
     canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/blog/pg-near-colleges-saravanampatti');
+
+    // Add Article Schema
+    const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Best PG Near SNS and Kumaraguru College - Student Guide",
+      "author": {
+        "@type": "Organization",
+        "name": "The Royal Nest Studio House"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "The Royal Nest Studio House",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://theroyalneststudiohouse.com/logo.png"
+        }
+      },
+      "datePublished": "2025-01-05",
+      "dateModified": "2025-01-05",
+      "description": "Find affordable ladies hostels near SNS and Kumaraguru colleges in Saravanampatti. Student-friendly PG with study areas.",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://theroyalneststudiohouse.com/blog/pg-near-colleges-saravanampatti"
+      }
+    };
+
+    let articleSchemaScript = document.querySelector('script[data-schema="article"]');
+    if (!articleSchemaScript) {
+      articleSchemaScript = document.createElement('script');
+      articleSchemaScript.setAttribute('type', 'application/ld+json');
+      articleSchemaScript.setAttribute('data-schema', 'article');
+      document.head.appendChild(articleSchemaScript);
+    }
+    articleSchemaScript.textContent = JSON.stringify(articleSchema);
   }, []);
 
   return (

@@ -20,6 +20,41 @@ const BestWomensPgKctTechPark = () => {
       document.head.appendChild(canonicalLink);
     }
     canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/blog/best-womens-pg-kct-tech-park');
+
+    // Add Article Schema
+    const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Best Women's PGs Near KCT Tech Park – Complete Guide",
+      "author": {
+        "@type": "Organization",
+        "name": "The Royal Nest Studio House"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "The Royal Nest Studio House",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://theroyalneststudiohouse.com/logo.png"
+        }
+      },
+      "datePublished": "2025-01-15",
+      "dateModified": "2025-01-15",
+      "description": "Complete guide to finding the best ladies hostel near KCT Tech Park Saravanampatti. AC rooms, WiFi, security.",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://theroyalneststudiohouse.com/blog/best-womens-pg-kct-tech-park"
+      }
+    };
+
+    let articleSchemaScript = document.querySelector('script[data-schema="article"]');
+    if (!articleSchemaScript) {
+      articleSchemaScript = document.createElement('script');
+      articleSchemaScript.setAttribute('type', 'application/ld+json');
+      articleSchemaScript.setAttribute('data-schema', 'article');
+      document.head.appendChild(articleSchemaScript);
+    }
+    articleSchemaScript.textContent = JSON.stringify(articleSchema);
   }, []);
 
   return (

@@ -20,6 +20,41 @@ const WorkingWomensHostelSaravanampatti = () => {
       document.head.appendChild(canonicalLink);
     }
     canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/blog/working-womens-hostel-saravanampatti');
+
+    // Add Article Schema
+    const articleSchema = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Working Women's Hostel in Saravanampatti: What to Look For",
+      "author": {
+        "@type": "Organization",
+        "name": "The Royal Nest Studio House"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "The Royal Nest Studio House",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://theroyalneststudiohouse.com/logo.png"
+        }
+      },
+      "datePublished": "2025-01-12",
+      "dateModified": "2025-01-12",
+      "description": "Essential checklist for choosing a safe ladies hostel in Saravanampatti near KGISL and Adithya Techno Park.",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://theroyalneststudiohouse.com/blog/working-womens-hostel-saravanampatti"
+      }
+    };
+
+    let articleSchemaScript = document.querySelector('script[data-schema="article"]');
+    if (!articleSchemaScript) {
+      articleSchemaScript = document.createElement('script');
+      articleSchemaScript.setAttribute('type', 'application/ld+json');
+      articleSchemaScript.setAttribute('data-schema', 'article');
+      document.head.appendChild(articleSchemaScript);
+    }
+    articleSchemaScript.textContent = JSON.stringify(articleSchema);
   }, []);
 
   return (
