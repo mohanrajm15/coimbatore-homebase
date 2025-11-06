@@ -6,7 +6,7 @@ const __dirname = path.dirname(url.fileURLToPath(import.meta.url))
 const toAbsolute = (p) => path.resolve(__dirname, p)
 
 const template = fs.readFileSync(toAbsolute('dist/index.html'), 'utf-8')
-const { render } = await import('./dist/server/entry-server.js')
+const { render, getMetaTags } = await import('./dist/server/entry-server.js')
 
 // Define all routes that match App.tsx
 const routesToPrerender = [
@@ -30,7 +30,22 @@ const routesToPrerender = [
 ;(async () => {
   for (const url of routesToPrerender) {
     const appHtml = render(url);
-    const html = template.replace(`<!--app-html-->`, appHtml)
+    const metaTags = getMetaTags(url);
+    
+    // Replace meta tags in head
+    let html = template.replace(
+      /<title>.*?<\/title>/,
+      metaTags.match(/<title>.*?<\/title>/)[0]
+    );
+    html = html.replace(
+      /<meta name="description" content=".*?" \/>/,
+      metaTags.match(/<meta name="description" content=".*?" \/>/)[0]
+    );
+    html = html.replace(
+      /<link rel="canonical" href=".*?" \/>/,
+      metaTags.match(/<link rel="canonical" href=".*?" \/>/)[0]
+    );
+    html = html.replace(`<!--app-html-->`, appHtml)
 
     const filePath = `dist${url === '/' ? '/index' : url}.html`
     const fileDir = path.dirname(toAbsolute(filePath))
