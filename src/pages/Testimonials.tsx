@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import { Star, Quote } from "lucide-react";
 import { useEffect } from "react";
@@ -105,6 +106,7 @@ const Testimonials = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
+      <Breadcrumbs />
       
       <main className="flex-1">
         {/* Hero Section */}

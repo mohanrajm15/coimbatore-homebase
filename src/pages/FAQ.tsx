@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import {
   Accordion,
@@ -26,6 +27,29 @@ const FAQ = () => {
       document.head.appendChild(canonicalLink);
     }
     canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/faq');
+    
+    // Add complete FAQ schema
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    };
+    
+    let faqSchemaScript = document.querySelector('script[data-schema="faq"]');
+    if (!faqSchemaScript) {
+      faqSchemaScript = document.createElement('script');
+      faqSchemaScript.setAttribute('type', 'application/ld+json');
+      faqSchemaScript.setAttribute('data-schema', 'faq');
+      document.head.appendChild(faqSchemaScript);
+    }
+    faqSchemaScript.textContent = JSON.stringify(faqSchema);
   }, []);
 
   const faqs = [
@@ -74,6 +98,7 @@ const FAQ = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
+      <Breadcrumbs />
       
       <main className="flex-1">
         {/* Hero Section */}

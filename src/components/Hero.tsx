@@ -1,9 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import heroImage from "@/assets/hero-coliving.jpg";
 
 const Hero = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = heroImage;
+    img.onload = () => setImageLoaded(true);
+  }, []);
+
   const handleWhatsApp = () => {
     const phoneNumber = "919629313135";
     const message = encodeURIComponent("Hello. I am interested");
@@ -14,13 +23,17 @@ const Hero = () => {
     <section className="relative min-h-[600px] md:min-h-[700px] flex items-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="The Royal Nest Studio House ladies hostel entrance in Saravanampatti Coimbatore - Safe womens accommodation near tech parks" 
-          className="w-full h-full object-cover"
-          width="1920"
-          height="1080"
-        />
+        {imageLoaded ? (
+          <img 
+            src={heroImage} 
+            alt="The Royal Nest Studio House ladies hostel entrance in Saravanampatti Coimbatore - Safe womens accommodation near tech parks" 
+            className="w-full h-full object-cover"
+            width="1920"
+            height="1080"
+          />
+        ) : (
+          <div className="w-full h-full bg-secondary animate-pulse" />
+        )}
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
       </div>
 

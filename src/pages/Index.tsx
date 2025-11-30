@@ -48,10 +48,10 @@ const Index = () => {
                 <video 
                   src={propertyVideo}
                   controls
-                  autoPlay
                   muted
                   loop
                   playsInline
+                  preload="metadata"
                   className="w-full h-full object-cover"
                   aria-label="Virtual tour video of The Royal Nest Studio House property"
                 >
