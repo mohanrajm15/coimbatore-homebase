@@ -3,7 +3,10 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
-import suiteLivingRoom from "@/assets/suite-living-room.jpg";
+import suiteLivingTv from "@/assets/suite-living-tv.jpg";
+import suiteBedroom from "@/assets/suite-bedroom.jpg";
+import suiteKitchen from "@/assets/suite-kitchen.jpg";
+import suiteBathroom from "@/assets/suite-bathroom.jpg";
 import deluxeBed1 from "@/assets/deluxe-bed-1.jpg";
 import deluxeBed2 from "@/assets/deluxe-bed-2.jpg";
 import deluxeCupboard from "@/assets/deluxe-cupboard.jpg";
@@ -51,7 +54,7 @@ const roomTypes = [
   },
   {
     title: "Suite Room",
-    images: [suiteLivingRoom],
+    images: [suiteLivingTv, suiteBedroom, suiteKitchen, suiteBathroom],
     description: "Premium space with bedroom, living area, and kitchen",
     count: "7 rooms available",
     size: "17 ft × 16 ft",
