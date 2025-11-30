@@ -3,14 +3,35 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
-import bedroomTriple from "@/assets/bedroom-triple.jpg";
 import suiteLivingRoom from "@/assets/suite-living-room.jpg";
+import deluxeBed1 from "@/assets/deluxe-bed-1.jpg";
+import deluxeBed2 from "@/assets/deluxe-bed-2.jpg";
+import deluxeCupboard from "@/assets/deluxe-cupboard.jpg";
+import deluxeDoor from "@/assets/deluxe-door.jpg";
+import deluxeKitchen from "@/assets/deluxe-kitchen.jpg";
+import deluxeBathroom from "@/assets/deluxe-bathroom.jpg";
 import { useEffect } from "react";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
+const deluxeRoomImages = [
+  deluxeBed1,
+  deluxeBed2,
+  deluxeCupboard,
+  deluxeDoor,
+  deluxeKitchen,
+  deluxeBathroom
+];
 
 const roomTypes = [
   {
     title: "Deluxe Room",
-    image: bedroomTriple,
+    images: deluxeRoomImages,
     description: "Twin or triple sharing with bedroom and kitchen area",
     count: "8 rooms available",
     size: "17 ft × 10 ft",
@@ -30,7 +51,7 @@ const roomTypes = [
   },
   {
     title: "Suite Room",
-    image: suiteLivingRoom,
+    images: [suiteLivingRoom],
     description: "Premium space with bedroom, living area, and kitchen",
     count: "7 rooms available",
     size: "17 ft × 16 ft",
@@ -98,16 +119,39 @@ const Rooms = () => {
                   key={index}
                   className="bg-card rounded-2xl overflow-hidden shadow-medium hover:shadow-large transition-smooth"
                 >
-                  <div className="aspect-[4/3] overflow-hidden">
-                    <img 
-                      src={room.image} 
-                      alt={`${room.title} - AC furnished room at ladies hostel in Saravanampatti Coimbatore`}
-                      className="w-full h-full object-cover hover:scale-105 transition-smooth"
-                      loading="lazy"
-                      width="600"
-                      height="450"
-                    />
-                  </div>
+                  {room.images.length > 1 ? (
+                    <Carousel className="w-full">
+                      <CarouselContent>
+                        {room.images.map((image, imgIndex) => (
+                          <CarouselItem key={imgIndex}>
+                            <div className="aspect-[4/3] overflow-hidden">
+                              <img 
+                                src={image} 
+                                alt={`${room.title} - AC furnished room at ladies hostel in Saravanampatti Coimbatore`}
+                                className="w-full h-full object-cover"
+                                loading="lazy"
+                                width="600"
+                                height="450"
+                              />
+                            </div>
+                          </CarouselItem>
+                        ))}
+                      </CarouselContent>
+                      <CarouselPrevious className="left-4" />
+                      <CarouselNext className="right-4" />
+                    </Carousel>
+                  ) : (
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <img 
+                        src={room.images[0]} 
+                        alt={`${room.title} - AC furnished room at ladies hostel in Saravanampatti Coimbatore`}
+                        className="w-full h-full object-cover hover:scale-105 transition-smooth"
+                        loading="lazy"
+                        width="600"
+                        height="450"
+                      />
+                    </div>
+                  )}
                   <div className="p-6">
                     <div className="mb-4">
                       <h3 className="text-2xl font-bold mb-1">{room.title}</h3>
