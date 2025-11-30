@@ -7,7 +7,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { useState } from "react";
-import logo from "@/assets/logo.png";
+const logo = "/favicon.png";
 
 const navigation = [
   { name: "Home", href: "/", icon: Home },
