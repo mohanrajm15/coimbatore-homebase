@@ -1,5 +1,8 @@
 import Navbar from "@/components/Navbar";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import roomTwin1 from "@/assets/room-twin-1.jpg";
 import roomTwin2 from "@/assets/room-twin-2.jpg";
@@ -108,11 +111,36 @@ const Gallery = () => {
       document.head.appendChild(canonicalLink);
     }
     canonicalLink.setAttribute('href', 'https://theroyalneststudiohouse.com/gallery');
+    
+    // Add ImageGallery schema
+    const gallerySchema = {
+      "@context": "https://schema.org",
+      "@type": "ImageGallery",
+      "name": "The Royal Nest Studio House Photo Gallery",
+      "description": "Photo gallery of our ladies hostel in Saravanampatti featuring rooms, amenities, and facilities",
+      "image": galleryImages.slice(0, 10).map((img, index) => ({
+        "@type": "ImageObject",
+        "contentUrl": `https://theroyalneststudiohouse.com${img.src}`,
+        "description": img.title,
+        "name": img.title,
+        "position": index + 1
+      }))
+    };
+    
+    let gallerySchemaScript = document.querySelector('script[data-schema="gallery"]');
+    if (!gallerySchemaScript) {
+      gallerySchemaScript = document.createElement('script');
+      gallerySchemaScript.setAttribute('type', 'application/ld+json');
+      gallerySchemaScript.setAttribute('data-schema', 'gallery');
+      document.head.appendChild(gallerySchemaScript);
+    }
+    gallerySchemaScript.textContent = JSON.stringify(gallerySchema);
   }, []);
 
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
+      <Breadcrumbs />
       
       <main className="flex-1">
         {/* Hero Section */}
@@ -167,11 +195,11 @@ const Gallery = () => {
             <p className="text-lg text-muted-foreground mb-8">
               Schedule a visit to experience our spaces in person
             </p>
-            <a href="/contact">
-              <button className="px-8 py-3 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-smooth">
+            <Link to="/contact">
+              <Button size="lg">
                 Book a Visit
-              </button>
-            </a>
+              </Button>
+            </Link>
           </div>
         </section>
       </main>

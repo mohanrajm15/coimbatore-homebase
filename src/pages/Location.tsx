@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import Footer from "@/components/Footer";
 import { MapPin, Bus, Building2, GraduationCap, ShoppingBag, Coffee } from "lucide-react";
 import { useEffect } from "react";
@@ -93,6 +94,7 @@ const Location = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
+      <Breadcrumbs />
       
       <main className="flex-1">
         {/* Hero Section */}

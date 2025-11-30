@@ -22,6 +22,10 @@
     
     <link rel="canonical" href="https://theroyalneststudiohouse.com/" />
     
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="/src/assets/hero-coliving.jpg" as="image" type="image/jpeg" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style" />
+    
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
@@ -90,6 +94,21 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "The Royal Nest Studio House",
+      "url": "https://theroyalneststudiohouse.com",
+      "description": "Premium ladies hostel in Saravanampatti, Coimbatore exclusively for women students and working professionals",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://theroyalneststudiohouse.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
       "@type": "Organization",
       "name": "The Royal Nest Studio House",
       "url": "https://theroyalneststudiohouse.com",
@@ -127,6 +146,21 @@
           "text": "Yes, The Royal Nest Studio House is within 2-3 km from KCT Tech Park, KGISL Campus, and Adithya Techno Park in Saravanampatti, making it ideal for working women and students."
         }
       }]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "The Royal Nest Management",
+      "email": "theroyalnest6666@gmail.com",
+      "telephone": "+919629313135",
+      "jobTitle": "Property Manager",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "The Royal Nest Studio House"
+      }
     }
     </script>
     
