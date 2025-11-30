@@ -6,8 +6,6 @@ import roomTwin2 from "@/assets/room-twin-2.jpg";
 import roomTriple1 from "@/assets/room-triple-1.jpg";
 import roomTriple2 from "@/assets/room-triple-2.jpg";
 import roomTriple3 from "@/assets/room-triple-3.jpg";
-import roomSuite1 from "@/assets/room-suite-1.jpg";
-import roomSuite2 from "@/assets/room-suite-2.jpg";
 import roomSuite3 from "@/assets/room-suite-3.jpg";
 import roomSuite4 from "@/assets/room-suite-4.jpg";
 import livingDining from "@/assets/living-dining.jpg";
@@ -26,8 +24,6 @@ const galleryImages = [
   { src: roomTriple1, title: "Deluxe Triple Sharing Room", category: "Rooms" },
   { src: roomTriple2, title: "Triple Sharing with Storage", category: "Rooms" },
   { src: roomTriple3, title: "Triple Sharing with Balcony View", category: "Rooms" },
-  { src: roomSuite1, title: "Suite Room - Frontal View", category: "Rooms" },
-  { src: roomSuite2, title: "Suite Room with TV Unit", category: "Rooms" },
   { src: roomSuite3, title: "Suite Room - Bedroom Area", category: "Rooms" },
   { src: roomSuite4, title: "Suite Room - Living & Bedroom", category: "Rooms" },
   { src: livingDining, title: "Living & Dining Area", category: "Common Areas" },
