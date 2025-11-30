@@ -16,7 +16,13 @@ import {
   Fingerprint, 
   Camera, 
   Sparkles, 
-  Key 
+  Key,
+  Users,
+  Ban,
+  CigaretteOff,
+  ChefHat,
+  Bike,
+  Lightbulb
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import suiteLivingTv from "@/assets/suite-living-tv.jpg";
@@ -245,33 +251,52 @@ const Rooms = () => {
         {/* Policies Section */}
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl font-bold text-center mb-12">Property Policies</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="bg-card p-6 rounded-xl">
-                  <h3 className="font-semibold mb-2">Women-Only</h3>
-                  <p className="text-sm text-muted-foreground">Exclusively for women students and working professionals of all ages</p>
-                </div>
-                <div className="bg-card p-6 rounded-xl">
-                  <h3 className="font-semibold mb-2">No Pets</h3>
-                  <p className="text-sm text-muted-foreground">Pets are not allowed on the property</p>
-                </div>
-                <div className="bg-card p-6 rounded-xl">
-                  <h3 className="font-semibold mb-2">No Smoking</h3>
-                  <p className="text-sm text-muted-foreground">Smoking is strictly prohibited</p>
-                </div>
-                <div className="bg-card p-6 rounded-xl">
-                  <h3 className="font-semibold mb-2">Self-Cooking</h3>
-                  <p className="text-sm text-muted-foreground">Cook in your room; arrange your own utensils & appliances</p>
-                </div>
-                <div className="bg-card p-6 rounded-xl">
-                  <h3 className="font-semibold mb-2">Food Delivery</h3>
-                  <p className="text-sm text-muted-foreground">Swiggy, Zomato available; home-cooked meals can be arranged</p>
-                </div>
-                <div className="bg-card p-6 rounded-xl">
-                  <h3 className="font-semibold mb-2">Electricity</h3>
-                  <p className="text-sm text-muted-foreground">Consumption charges borne by tenant</p>
-                </div>
+                {[
+                  { 
+                    icon: Users, 
+                    title: "Women-Only", 
+                    description: "Exclusively for women students and working professionals of all ages" 
+                  },
+                  { 
+                    icon: Ban, 
+                    title: "No Pets", 
+                    description: "Pets are not allowed on the property" 
+                  },
+                  { 
+                    icon: CigaretteOff, 
+                    title: "No Smoking", 
+                    description: "Smoking is strictly prohibited" 
+                  },
+                  { 
+                    icon: ChefHat, 
+                    title: "Self-Cooking", 
+                    description: "Cook in your room; arrange your own utensils & appliances" 
+                  },
+                  { 
+                    icon: Bike, 
+                    title: "Food Delivery", 
+                    description: "Swiggy, Zomato available; home-cooked meals can be arranged" 
+                  },
+                  { 
+                    icon: Lightbulb, 
+                    title: "Electricity", 
+                    description: "Consumption charges borne by tenant" 
+                  }
+                ].map((policy, index) => {
+                  const Icon = policy.icon;
+                  return (
+                    <div key={index} className="bg-card p-6 rounded-xl shadow-soft hover:shadow-medium transition-smooth">
+                      <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
+                        <Icon className="h-5 w-5 text-primary" />
+                      </div>
+                      <h3 className="font-semibold mb-2">{policy.title}</h3>
+                      <p className="text-sm text-muted-foreground">{policy.description}</p>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
