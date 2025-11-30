@@ -24,6 +24,14 @@ import cupboard from "@/assets/amenities-cupboard.jpg";
 import balcony from "@/assets/amenities-balcony.jpg";
 import bathroom1 from "@/assets/amenities-bathroom-1.jpg";
 import bathroom2 from "@/assets/amenities-bathroom-2.jpg";
+import studyArea6 from "@/assets/amenities-study-area-6.jpg";
+import studyArea7 from "@/assets/amenities-study-area-7.jpg";
+import washingMachine from "@/assets/amenities-washing-machine.jpg";
+import hallway1 from "@/assets/common-hallway-1.jpg";
+import hallway2 from "@/assets/common-hallway-2.jpg";
+import commonRefrigerator from "@/assets/common-refrigerator.jpg";
+import terrace1 from "@/assets/common-terrace-1.jpg";
+import terrace2 from "@/assets/common-terrace-2.jpg";
 import entranceDecor from "@/assets/entrance-decor.jpg";
 import exteriorSide from "@/assets/exterior-side.jpg";
 import exteriorFront from "@/assets/exterior-front.jpg";
@@ -51,7 +59,15 @@ const galleryImages = [
   { src: balcony, title: "Room with Balcony & AC", category: "Amenities" },
   { src: bathroom1, title: "Attached Bathroom", category: "Amenities" },
   { src: bathroom2, title: "Modern Bathroom Facilities", category: "Amenities" },
+  { src: studyArea6, title: "Study Area with TV & Kitchen", category: "Amenities" },
+  { src: studyArea7, title: "Study Desk with Storage", category: "Amenities" },
+  { src: washingMachine, title: "Washing Machines", category: "Amenities" },
   { src: interiorStaircase, title: "Interior Staircase", category: "Common Areas" },
+  { src: hallway1, title: "Hallway with Storage", category: "Common Areas" },
+  { src: hallway2, title: "Spacious Hallway", category: "Common Areas" },
+  { src: commonRefrigerator, title: "Common Area Refrigerator", category: "Common Areas" },
+  { src: terrace1, title: "Rooftop Terrace View", category: "Common Areas" },
+  { src: terrace2, title: "Terrace Area", category: "Common Areas" },
   { src: entranceDecor, title: "Entrance Decoration", category: "Exterior" },
   { src: exteriorSide, title: "Building Side View", category: "Exterior" },
   { src: exteriorFront, title: "Building Front View", category: "Exterior" },
