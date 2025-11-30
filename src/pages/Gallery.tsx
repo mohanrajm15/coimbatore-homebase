@@ -14,6 +14,16 @@ import kitchen from "@/assets/kitchen.jpg";
 import refrigerator from "@/assets/refrigerator.jpg";
 import generator from "@/assets/generator.jpg";
 import interiorStaircase from "@/assets/interior-staircase.jpg";
+import studyArea1 from "@/assets/amenities-study-area-1.jpg";
+import studyArea2 from "@/assets/amenities-study-area-2.jpg";
+import studyArea3 from "@/assets/amenities-study-area-3.jpg";
+import studyArea4 from "@/assets/amenities-study-area-4.jpg";
+import studyArea5 from "@/assets/amenities-study-area-5.jpg";
+import amenitiesKitchen from "@/assets/amenities-kitchen.jpg";
+import cupboard from "@/assets/amenities-cupboard.jpg";
+import balcony from "@/assets/amenities-balcony.jpg";
+import bathroom1 from "@/assets/amenities-bathroom-1.jpg";
+import bathroom2 from "@/assets/amenities-bathroom-2.jpg";
 import entranceDecor from "@/assets/entrance-decor.jpg";
 import exteriorSide from "@/assets/exterior-side.jpg";
 import exteriorFront from "@/assets/exterior-front.jpg";
@@ -31,6 +41,16 @@ const galleryImages = [
   { src: kitchen, title: "Modern Kitchen", category: "Amenities" },
   { src: refrigerator, title: "Refrigerator", category: "Amenities" },
   { src: generator, title: "Power Backup Generator", category: "Amenities" },
+  { src: studyArea1, title: "Study Area with Kitchen", category: "Amenities" },
+  { src: studyArea2, title: "Collaborative Study Space", category: "Amenities" },
+  { src: studyArea3, title: "Individual Study Desk", category: "Amenities" },
+  { src: studyArea4, title: "Private Study Room", category: "Amenities" },
+  { src: studyArea5, title: "Study Area with Whiteboard", category: "Amenities" },
+  { src: amenitiesKitchen, title: "In-Room Kitchen", category: "Amenities" },
+  { src: cupboard, title: "Spacious Cupboard Storage", category: "Amenities" },
+  { src: balcony, title: "Room with Balcony & AC", category: "Amenities" },
+  { src: bathroom1, title: "Attached Bathroom", category: "Amenities" },
+  { src: bathroom2, title: "Modern Bathroom Facilities", category: "Amenities" },
   { src: interiorStaircase, title: "Interior Staircase", category: "Common Areas" },
   { src: entranceDecor, title: "Entrance Decoration", category: "Exterior" },
   { src: exteriorSide, title: "Building Side View", category: "Exterior" },
