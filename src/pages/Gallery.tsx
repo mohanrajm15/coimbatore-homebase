@@ -1,12 +1,16 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useEffect } from "react";
-import bedroomSingle from "@/assets/bedroom-single.jpg";
-import bedroomTriple from "@/assets/bedroom-triple.jpg";
-import bedroomBalcony from "@/assets/bedroom-balcony.jpg";
+import roomTwin1 from "@/assets/room-twin-1.jpg";
+import roomTwin2 from "@/assets/room-twin-2.jpg";
+import roomTriple1 from "@/assets/room-triple-1.jpg";
+import roomTriple2 from "@/assets/room-triple-2.jpg";
+import roomTriple3 from "@/assets/room-triple-3.jpg";
+import roomSuite1 from "@/assets/room-suite-1.jpg";
+import roomSuite2 from "@/assets/room-suite-2.jpg";
+import roomSuite3 from "@/assets/room-suite-3.jpg";
+import roomSuite4 from "@/assets/room-suite-4.jpg";
 import livingDining from "@/assets/living-dining.jpg";
-import suiteBedroomLiving from "@/assets/suite-bedroom-living.jpg";
-import suiteLivingRoom from "@/assets/suite-living-room.jpg";
 import suiteStudyKitchen from "@/assets/suite-study-kitchen.jpg";
 import kitchen from "@/assets/kitchen.jpg";
 import refrigerator from "@/assets/refrigerator.jpg";
@@ -15,16 +19,18 @@ import interiorStaircase from "@/assets/interior-staircase.jpg";
 import entranceDecor from "@/assets/entrance-decor.jpg";
 import exteriorSide from "@/assets/exterior-side.jpg";
 import exteriorFront from "@/assets/exterior-front.jpg";
-import roomInteriorStorage from "@/assets/room-interior-storage.jpg";
-import roomInteriorTriple from "@/assets/room-interior-triple.jpg";
 
 const galleryImages = [
-  { src: bedroomSingle, title: "Twin Sharing Room", category: "Rooms" },
-  { src: bedroomTriple, title: "Triple Sharing Room", category: "Rooms" },
-  { src: bedroomBalcony, title: "Bedroom with Balcony", category: "Rooms" },
+  { src: roomTwin1, title: "Deluxe Twin Sharing Room", category: "Rooms" },
+  { src: roomTwin2, title: "Twin Sharing with Balcony", category: "Rooms" },
+  { src: roomTriple1, title: "Deluxe Triple Sharing Room", category: "Rooms" },
+  { src: roomTriple2, title: "Triple Sharing with Storage", category: "Rooms" },
+  { src: roomTriple3, title: "Triple Sharing with Balcony View", category: "Rooms" },
+  { src: roomSuite1, title: "Suite Room - Frontal View", category: "Rooms" },
+  { src: roomSuite2, title: "Suite Room with TV Unit", category: "Rooms" },
+  { src: roomSuite3, title: "Suite Room - Bedroom Area", category: "Rooms" },
+  { src: roomSuite4, title: "Suite Room - Living & Bedroom", category: "Rooms" },
   { src: livingDining, title: "Living & Dining Area", category: "Common Areas" },
-  { src: suiteLivingRoom, title: "Suite Living Room", category: "Rooms" },
-  { src: suiteBedroomLiving, title: "Suite - Bedroom & Living", category: "Rooms" },
   { src: suiteStudyKitchen, title: "Study Area & Kitchen", category: "Common Areas" },
   { src: kitchen, title: "Modern Kitchen", category: "Amenities" },
   { src: refrigerator, title: "Refrigerator", category: "Amenities" },
@@ -33,8 +39,6 @@ const galleryImages = [
   { src: entranceDecor, title: "Entrance Decoration", category: "Exterior" },
   { src: exteriorSide, title: "Building Side View", category: "Exterior" },
   { src: exteriorFront, title: "Building Front View", category: "Exterior" },
-  { src: roomInteriorStorage, title: "Room with Study Area", category: "Rooms" },
-  { src: roomInteriorTriple, title: "Room Interior Detail", category: "Rooms" },
 ];
 
 const Gallery = () => {
