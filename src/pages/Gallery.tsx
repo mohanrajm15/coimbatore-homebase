@@ -35,6 +35,16 @@ import terrace2 from "@/assets/common-terrace-2.jpg";
 import entranceDecor from "@/assets/entrance-decor.jpg";
 import exteriorSide from "@/assets/exterior-side.jpg";
 import exteriorFront from "@/assets/exterior-front.jpg";
+import securityCamera1 from "@/assets/facilities-security-camera-1.jpg";
+import securityCamera2 from "@/assets/facilities-security-camera-2.jpg";
+import waterDispenser from "@/assets/facilities-water-dispenser.jpg";
+import wifi from "@/assets/facilities-wifi.jpg";
+import biometricEntrance from "@/assets/facilities-biometric-entrance.jpg";
+import parking from "@/assets/facilities-parking.jpg";
+import powerBackup from "@/assets/facilities-power-backup.jpg";
+import exteriorBuildingFront from "@/assets/exterior-building-front.jpg";
+import exteriorBuildingNight from "@/assets/exterior-building-night.jpg";
+import exteriorEntrance from "@/assets/exterior-entrance.jpg";
 
 const galleryImages = [
   { src: roomTwin1, title: "Deluxe Twin Sharing Room", category: "Rooms" },
@@ -68,9 +78,19 @@ const galleryImages = [
   { src: commonRefrigerator, title: "Common Area Refrigerator", category: "Common Areas" },
   { src: terrace1, title: "Rooftop Terrace View", category: "Common Areas" },
   { src: terrace2, title: "Terrace Area", category: "Common Areas" },
+  { src: securityCamera1, title: "24/7 Security Camera System", category: "Facilities" },
+  { src: securityCamera2, title: "Security Monitoring", category: "Facilities" },
+  { src: waterDispenser, title: "Water Dispenser", category: "Facilities" },
+  { src: wifi, title: "High-Speed WiFi", category: "Facilities" },
+  { src: biometricEntrance, title: "Biometric Access Control", category: "Facilities" },
+  { src: parking, title: "Two-Wheeler Parking", category: "Facilities" },
+  { src: powerBackup, title: "24/7 Power Backup", category: "Facilities" },
   { src: entranceDecor, title: "Entrance Decoration", category: "Exterior" },
   { src: exteriorSide, title: "Building Side View", category: "Exterior" },
   { src: exteriorFront, title: "Building Front View", category: "Exterior" },
+  { src: exteriorBuildingFront, title: "Building Front Entrance", category: "Exterior" },
+  { src: exteriorBuildingNight, title: "Building Night View", category: "Exterior" },
+  { src: exteriorEntrance, title: "Main Entrance", category: "Exterior" },
 ];
 
 const Gallery = () => {
