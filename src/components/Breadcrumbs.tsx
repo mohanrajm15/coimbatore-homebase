@@ -25,6 +25,9 @@ const Breadcrumbs = () => {
   const pathnames = location.pathname.split("/").filter((x) => x);
 
   useEffect(() => {
+    // Only run on client-side (not during SSR)
+    if (typeof window === 'undefined') return;
+    
     // Generate breadcrumb JSON-LD schema
     if (pathnames.length > 0) {
       const baseUrl = "https://theroyalneststudiohouse.com";
