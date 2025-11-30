@@ -1,7 +1,23 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Check } from "lucide-react";
+import { 
+  Check, 
+  Wifi, 
+  Droplets, 
+  Refrigerator, 
+  Sofa, 
+  Sun, 
+  Building2, 
+  Droplet, 
+  Zap, 
+  WashingMachine, 
+  ShieldCheck, 
+  Fingerprint, 
+  Camera, 
+  Sparkles, 
+  Key 
+} from "lucide-react";
 import { Link } from "react-router-dom";
 import suiteLivingTv from "@/assets/suite-living-tv.jpg";
 import suiteBedroom from "@/assets/suite-bedroom.jpg";
@@ -192,30 +208,35 @@ const Rooms = () => {
         {/* Common Amenities Section */}
         <section className="py-16 bg-secondary/20">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-6xl mx-auto">
               <h2 className="text-3xl font-bold text-center mb-12">Common Amenities for All Rooms</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
-                  "Free 200 Mbps WiFi (private WiFi option available)",
-                  "Hot, normal & cold water dispenser on each floor",
-                  "Refrigerator on each floor hallway",
-                  "Common seating areas with sofas on 1st & 2nd floor",
-                  "Open terrace for relaxation",
-                  "Tile flooring throughout, granite stairs",
-                  "Municipality water supply ('Nalla thanni')",
-                  "Key card electricity control",
-                  "Multiple Washing machines on terrace with drying shed",
-                  "24/7 security personnel & property manager",
-                  "Biometric building entry system",
-                  "20 CCTV cameras in all common areas for safety",
-                  "Twice a week housekeeping (+ additional housekeeping on request)",
-                  "Room door locks with keys provided"
-                ].map((amenity, index) => (
-                  <div key={index} className="flex items-start">
-                    <Check className="h-5 w-5 text-primary mr-3 flex-shrink-0 mt-0.5" />
-                    <span>{amenity}</span>
-                  </div>
-                ))}
+                  { icon: Wifi, text: "Free 200 Mbps WiFi (private WiFi option available)" },
+                  { icon: Droplets, text: "Hot, normal & cold water dispenser on each floor" },
+                  { icon: Refrigerator, text: "Refrigerator on each floor hallway" },
+                  { icon: Sofa, text: "Common seating areas with sofas on 1st & 2nd floor" },
+                  { icon: Sun, text: "Open terrace for relaxation" },
+                  { icon: Building2, text: "Tile flooring throughout, granite stairs" },
+                  { icon: Droplet, text: "Municipality water supply ('Nalla thanni')" },
+                  { icon: Zap, text: "Key card electricity control" },
+                  { icon: WashingMachine, text: "Multiple Washing machines on terrace with drying shed" },
+                  { icon: ShieldCheck, text: "24/7 security personnel & property manager" },
+                  { icon: Fingerprint, text: "Biometric building entry system" },
+                  { icon: Camera, text: "20 CCTV cameras in all common areas for safety" },
+                  { icon: Sparkles, text: "Twice a week housekeeping (+ additional housekeeping on request)" },
+                  { icon: Key, text: "Room door locks with keys provided" }
+                ].map((amenity, index) => {
+                  const Icon = amenity.icon;
+                  return (
+                    <div key={index} className="flex items-start bg-card p-4 rounded-lg shadow-soft hover:shadow-medium transition-smooth">
+                      <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center mr-3 flex-shrink-0">
+                        <Icon className="h-5 w-5 text-primary" />
+                      </div>
+                      <span className="text-sm">{amenity.text}</span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
