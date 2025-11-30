@@ -18,15 +18,6 @@ export default defineConfig(({ mode }) => ({
   build: {
     // Optimize bundle size with esbuild (faster than terser, built-in)
     minify: 'esbuild',
-    // Code splitting strategy
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          'ui-vendor': ['@radix-ui/react-accordion', '@radix-ui/react-dialog', '@radix-ui/react-toast'],
-        },
-      },
-    },
     // Optimize chunk size
     chunkSizeWarningLimit: 1000,
     // Enable source maps for production debugging (optional)
