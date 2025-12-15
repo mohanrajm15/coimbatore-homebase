@@ -17,7 +17,9 @@ const routeNames: Record<string, string> = {
   "working-womens-hostel-saravanampatti": "Working Women's Hostel Saravanampatti",
   "ladies-hostel-monthly-rent-coimbatore": "Ladies Hostel Monthly Rent",
   "safe-womens-accommodation-coimbatore": "Safe Women's Accommodation",
-  "pg-near-colleges-saravanampatti": "PG Near Colleges Saravanampatti"
+  "pg-near-colleges-saravanampatti": "PG Near Colleges Saravanampatti",
+  "best-womens-hostel-saravanampatti-2025": "Best Women's Hostel 2025 Guide",
+  "womens-hostel-vs-pg-saravanampatti": "Hostel vs PG Comparison"
 };
 
 const Breadcrumbs = () => {
