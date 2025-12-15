@@ -78,6 +78,16 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
     title: 'Best PG Near SNS and Kumaraguru College | Student Guide - The Royal Nest',
     description: 'Find affordable ladies hostels near SNS and Kumaraguru colleges in Saravanampatti. Student-friendly PG with study areas, WiFi, and good connectivity.',
     canonical: 'https://theroyalneststudiohouse.com/blog/pg-near-colleges-saravanampatti'
+  },
+  '/blog/best-womens-hostel-saravanampatti-2025': {
+    title: "Best Women's Hostel in Saravanampatti: Complete 2025 Guide | Royal Nest",
+    description: "Discover the best women's hostel in Saravanampatti for 2025. Complete guide covering ladies hostel options near IT Park, KGISL, TCS, Cognizant with AC, WiFi, security & attached bathrooms.",
+    canonical: 'https://theroyalneststudiohouse.com/blog/best-womens-hostel-saravanampatti-2025'
+  },
+  '/blog/womens-hostel-vs-pg-saravanampatti': {
+    title: "Women's Hostel vs PG in Saravanampatti – Which Is Better? | Royal Nest",
+    description: "Confused between women's hostel and PG in Saravanampatti? Compare facilities, pricing, security & amenities. Complete guide for IT professionals & students.",
+    canonical: 'https://theroyalneststudiohouse.com/blog/womens-hostel-vs-pg-saravanampatti'
   }
 };
 

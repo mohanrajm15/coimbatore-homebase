@@ -26,6 +26,20 @@ const Blog = () => {
 
   const blogPosts = [
     {
+      id: "best-womens-hostel-saravanampatti-2025",
+      title: "Best Women's Hostel in Saravanampatti: Complete 2025 Guide",
+      excerpt: "Comprehensive guide to finding the best ladies hostel near IT Park, KGISL, TCS, Cognizant with AC, WiFi, security features.",
+      date: "2025-01-18",
+      slug: "/blog/best-womens-hostel-saravanampatti-2025"
+    },
+    {
+      id: "womens-hostel-vs-pg-saravanampatti",
+      title: "Women's Hostel vs PG in Saravanampatti – Which Is Better?",
+      excerpt: "Detailed comparison of women's hostels and PG accommodations. Compare facilities, pricing, security & amenities for IT professionals & students.",
+      date: "2025-01-17",
+      slug: "/blog/womens-hostel-vs-pg-saravanampatti"
+    },
+    {
       id: "best-womens-pg-kct-tech-park",
       title: "Best Women's PGs Near KCT Tech Park – Complete Guide",
       excerpt: "Discover top-rated ladies hostels near KCT Tech Park in Saravanampatti with AC rooms, WiFi, and affordable monthly rent.",
