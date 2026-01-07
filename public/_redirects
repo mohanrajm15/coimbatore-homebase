@@ -1,9 +1,7 @@
-# Force HTTPS
-http://theroyalneststudiohouse.com/* https://theroyalneststudiohouse.com/:splat 301!
-http://www.theroyalneststudiohouse.com/* https://theroyalneststudiohouse.com/:splat 301!
-
-# Force non-www
-https://www.theroyalneststudiohouse.com/* https://theroyalneststudiohouse.com/:splat 301!
+# Force HTTPS and www - all variants redirect to canonical www version
+http://theroyalneststudiohouse.com/* https://www.theroyalneststudiohouse.com/:splat 301!
+http://www.theroyalneststudiohouse.com/* https://www.theroyalneststudiohouse.com/:splat 301!
+https://theroyalneststudiohouse.com/* https://www.theroyalneststudiohouse.com/:splat 301!
 
 # SPA fallback
 /* /index.html 200
