@@ -95,7 +95,7 @@ const PgNearCollegesSaravanampatti = () => {
 
                 <h2 className="text-2xl font-bold mb-4 mt-8">Study-Focused Amenities</h2>
                 <p className="text-muted-foreground mb-4">
-                  Our womens hostel provides quiet study areas perfect for exam preparation and assignment work. High-speed WiFi throughout the property ensures you can attend online classes, submit assignments, and conduct research without interruptions. Power backup guarantees uninterrupted study sessions even during outages.
+                  Our womens hostel provides quiet study areas perfect for exam preparation and assignment work. High-speed WiFi throughout the hostel ensures you can attend online classes, submit assignments, and conduct research without interruptions. Power backup guarantees uninterrupted study sessions even during outages.
                 </p>
 
                 <h2 className="text-2xl font-bold mb-4 mt-8">Affordable Student Pricing</h2>
@@ -105,7 +105,7 @@ const PgNearCollegesSaravanampatti = () => {
 
                 <h2 className="text-2xl font-bold mb-4 mt-8">Safety & Community</h2>
                 <p className="text-muted-foreground mb-4">
-                  As a <Link to="/about" className="text-primary hover:underline">women-only property</Link>, safety is our priority. 24/7 security, CCTV surveillance, and secure entry systems give you and your family peace of mind. Our supportive community atmosphere helps you build lasting friendships with fellow students and young professionals.
+                  As a <Link to="/about" className="text-primary hover:underline">women's hostel</Link>, safety is our priority. 24/7 security, CCTV surveillance, and secure entry systems give you and your family peace of mind. Our supportive community atmosphere helps you build lasting friendships with fellow students and young professionals.
                 </p>
 
                 <div className="bg-secondary/10 p-6 rounded-lg my-8">
@@ -122,7 +122,7 @@ const PgNearCollegesSaravanampatti = () => {
 
                 <h2 className="text-2xl font-bold mb-4 mt-8">Ready to Focus on Your Studies?</h2>
                 <p className="text-muted-foreground mb-4">
-                  Don't let accommodation worries distract from your education. Visit our <Link to="/rooms" className="text-primary hover:underline">rooms page</Link> to see available options or check out our <Link to="/gallery" className="text-primary hover:underline">photo gallery</Link> to get a better feel for our property. <Link to="/contact" className="text-primary hover:underline">Schedule a visit</Link> today and see why students choose The Royal Nest Studio House for their college years.
+                  Don't let accommodation worries distract from your education. Visit our <Link to="/rooms" className="text-primary hover:underline">rooms page</Link> to see available options or check out our <Link to="/gallery" className="text-primary hover:underline">photo gallery</Link> to get a better feel for our women's hostel. <Link to="/contact" className="text-primary hover:underline">Schedule a visit</Link> today and see why students choose The Royal Nest Studio House for their college years.
                 </p>
               </div>
 

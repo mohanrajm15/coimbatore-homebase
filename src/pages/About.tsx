@@ -32,7 +32,7 @@ const About = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                👩 Women-Only Property
+                👩 Women's Hostel
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 About The Royal Nest Studio House
@@ -56,7 +56,7 @@ const About = () => {
                 </p>
                 <p>
                   Built over an impressive <strong>11,000 sq ft area</strong> with <strong>2,500 sq ft dedicated parking space</strong>, 
-                  our newly constructed property features 15 thoughtfully designed rooms across ground, 1st, and 2nd floors. 
+                  our newly constructed women's hostel features 15 thoughtfully designed rooms across ground, 1st, and 2nd floors. 
                   We offer covered parking for two-wheelers and free public parking for four-wheelers.
                 </p>
                 <p>
@@ -66,7 +66,7 @@ const About = () => {
                 </p>
                 <p>
                   Every aspect of The Royal Nest is designed with modern women in mind – balancing privacy with community, 
-                  safety with freedom, and comfort with quality. Our women-only policy ensures a respectful, secure environment 
+                  safety with freedom, and comfort with quality. Our women's hostel policy ensures a respectful, secure environment 
                   where residents can focus on their education and careers.
                 </p>
               </div>

@@ -3,13 +3,13 @@ import { Wifi, ShieldCheck, Coffee, Car, Sparkles, Users, Droplet, Home } from "
 const features = [
   {
     icon: Users,
-    title: "Women-Only Property",
+    title: "Women's Hostel",
     description: "Safe and secure accommodation exclusively for women students and professionals"
   },
   {
     icon: ShieldCheck,
     title: "24/7 Security",
-    description: "Biometric access, 20 CCTV cameras, security personnel, and property manager on-site"
+    description: "Biometric access, 20 CCTV cameras, security personnel, and hostel manager on-site"
   },
   {
     icon: Wifi,

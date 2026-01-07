@@ -67,7 +67,7 @@ const FAQ = () => {
     },
     {
       question: "Is this a safe hostel for working women in Coimbatore?",
-      answer: "Absolutely. The Royal Nest is an exclusive women-only property with 24/7 security, CCTV surveillance, and secure entry systems. We prioritize the safety and comfort of all our residents."
+      answer: "Absolutely. The Royal Nest is an exclusive women's hostel with 24/7 security, CCTV surveillance, and secure entry systems. We prioritize the safety and comfort of all our residents."
     },
     {
       question: "What amenities are included in the womens hostel?",
@@ -87,7 +87,7 @@ const FAQ = () => {
     },
     {
       question: "Can I visit the ladies hostel before booking?",
-      answer: "Yes, we encourage prospective residents to visit and see the facilities. Contact us to schedule a visit and tour our beautiful property in Saravanampatti."
+      answer: "Yes, we encourage prospective residents to visit and see the facilities. Contact us to schedule a visit and tour our beautiful women's hostel in Saravanampatti."
     },
     {
       question: "What is the minimum stay duration for the PG?",
