@@ -91,7 +91,7 @@ const SafeWomensAccommodationCoimbatore = () => {
                 <div className="bg-secondary/10 p-6 rounded-lg my-8">
                   <h2 className="text-2xl font-bold mb-4">Our Safety Features</h2>
                   <ul className="space-y-2">
-                    <li>✓ Exclusive women-only property</li>
+                    <li>✓ Exclusive women's hostel</li>
                     <li>✓ 24/7 security staff on premises</li>
                     <li>✓ CCTV surveillance in all common areas</li>
                     <li>✓ Controlled access with secure entry systems</li>

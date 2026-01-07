@@ -127,7 +127,7 @@ const Rooms = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                👩 Women-Only Property • 15 Rooms Total
+                👩 Women's Hostel • 15 Rooms Total
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Choose Your Perfect Room
@@ -229,7 +229,7 @@ const Rooms = () => {
                   { icon: Droplet, text: "Municipality water supply ('Nalla thanni')" },
                   { icon: Zap, text: "Key card electricity control" },
                   { icon: WashingMachine, text: "Multiple Washing machines on terrace with drying shed" },
-                  { icon: ShieldCheck, text: "24/7 security personnel & property manager" },
+                  { icon: ShieldCheck, text: "24/7 security personnel & hostel manager" },
                   { icon: Fingerprint, text: "Biometric building entry system" },
                   { icon: Camera, text: "20 CCTV cameras in all common areas for safety" },
                   { icon: Sparkles, text: "Twice a week housekeeping (+ additional housekeeping on request)" },
@@ -254,7 +254,7 @@ const Rooms = () => {
         <section className="py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl font-bold text-center mb-12">Property Policies</h2>
+              <h2 className="text-3xl font-bold text-center mb-12">Hostel Policies</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
                   { 
@@ -265,7 +265,7 @@ const Rooms = () => {
                   { 
                     icon: Ban, 
                     title: "No Pets", 
-                    description: "Pets are not allowed on the property" 
+                    description: "Pets are not allowed in the hostel" 
                   },
                   { 
                     icon: CigaretteOff, 

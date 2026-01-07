@@ -17,7 +17,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
-              A women-only property in Saravanampatti, Coimbatore. Premium living spaces designed for safety, comfort and community. Opened September 2025.
+              A women's hostel in Saravanampatti, Coimbatore. Premium living spaces designed for safety, comfort and community. Opened September 2025.
             </p>
           </div>
 

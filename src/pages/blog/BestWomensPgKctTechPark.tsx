@@ -92,7 +92,7 @@ const BestWomensPgKctTechPark = () => {
                   <h2 className="text-2xl font-bold mb-4">Why Choose Our Ladies Hostel?</h2>
                   <ul className="space-y-2">
                     <li>✓ Only 2-3 km from KCT Tech Park and KGISL</li>
-                    <li>✓ Women-only property with 24/7 security</li>
+                    <li>✓ Women's hostel with 24/7 security</li>
                     <li>✓ AC rooms with attached bathrooms</li>
                     <li>✓ Affordable monthly rent with no hidden costs</li>
                     <li>✓ High-speed WiFi and power backup</li>

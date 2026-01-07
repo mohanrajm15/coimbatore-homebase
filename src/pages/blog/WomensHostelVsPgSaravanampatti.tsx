@@ -83,7 +83,7 @@ const WomensHostelVsPgSaravanampatti = () => {
                   <div className="bg-card p-6 rounded-xl border-2 border-secondary/20">
                     <h3 className="text-xl font-bold text-secondary-foreground mb-4">Paying Guest (PG)</h3>
                     <p className="text-muted-foreground mb-4">
-                      A <strong>PG for women near IT companies in Saravanampatti</strong> is usually a residential property 
+                      A <strong>PG for women near IT companies in Saravanampatti</strong> is usually a residential building 
                       where the owner rents out rooms. PGs tend to be smaller, more home-like, and offer a personalized experience.
                     </p>
                     <ul className="space-y-2 text-sm text-muted-foreground">

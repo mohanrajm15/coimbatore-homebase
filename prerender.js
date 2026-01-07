@@ -26,7 +26,8 @@ const routesToPrerender = [
   '/blog/safe-womens-accommodation-coimbatore',
   '/blog/pg-near-colleges-saravanampatti',
   '/blog/best-womens-hostel-saravanampatti-2025',
-  '/blog/womens-hostel-vs-pg-saravanampatti'
+  '/blog/womens-hostel-vs-pg-saravanampatti',
+  '/womens-hostel-saravanampatti'
 ]
 
 ;(async () => {

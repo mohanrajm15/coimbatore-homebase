@@ -184,7 +184,7 @@ const Location = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  <strong>The Royal Nest Studio House</strong> is in Saravanampatti's safest areas, chosen for our women-only property. 
+                  <strong>The Royal Nest Studio House</strong> is in Saravanampatti's safest areas, chosen for our women's hostel. 
                   The neighbourhood around Adithya Techno Park and KGISL Campus is known for its professional environment and safety.
                 </p>
                 <p>

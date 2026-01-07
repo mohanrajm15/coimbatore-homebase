@@ -88,6 +88,11 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
     title: "Women's Hostel vs PG in Saravanampatti – Which Is Better? | Royal Nest",
     description: "Confused between women's hostel and PG in Saravanampatti? Compare facilities, pricing, security & amenities. Complete guide for IT professionals & students.",
     canonical: 'https://www.theroyalneststudiohouse.com/blog/womens-hostel-vs-pg-saravanampatti'
+  },
+  '/womens-hostel-saravanampatti': {
+    title: "Women's Hostel in Saravanampatti | The Royal Nest",
+    description: "Best women's hostel in Saravanampatti, Coimbatore. Safe ladies hostel near KCT Tech Park, KGISL & Adithya Techno Park. AC rooms, WiFi, 24/7 security. Monthly rent from ₹8,500.",
+    canonical: 'https://www.theroyalneststudiohouse.com/womens-hostel-saravanampatti'
   }
 };
 

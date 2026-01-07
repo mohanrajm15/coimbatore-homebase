@@ -32,12 +32,12 @@ const Index = () => {
       <main className="flex-1">
         <Hero />
         
-        {/* Property Video */}
+        {/* Hostel Video */}
         <section className="py-16 bg-secondary/10">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                See Our Beautiful Property
+                See Our Beautiful Women's Hostel
               </h2>
               <p className="text-lg text-muted-foreground">
                 Take a virtual tour of The Royal Nest Studio House

@@ -92,7 +92,7 @@ const Pricing = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                👩 Women-Only Property
+                👩 Women's Hostel
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Transparent Pricing
