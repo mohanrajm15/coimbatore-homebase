@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { useGoogleAnalytics } from "@/hooks/useGoogleAnalytics";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Rooms from "./pages/Rooms";
@@ -25,12 +26,18 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+const GoogleAnalyticsTracker = () => {
+  useGoogleAnalytics();
+  return null;
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
       <ScrollToTop />
+      <GoogleAnalyticsTracker />
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
