@@ -39,8 +39,8 @@ const SafeWomensAccommodationCoimbatore = () => {
           "url": "https://theroyalneststudiohouse.com/logo.png"
         }
       },
-      "datePublished": "2025-01-08",
-      "dateModified": "2025-01-08",
+      "datePublished": "2025-10-05",
+      "dateModified": "2025-10-05",
       "description": "How to choose a secure ladies hostel in Saravanampatti Coimbatore. Safety tips for women-only PG.",
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -80,7 +80,7 @@ const SafeWomensAccommodationCoimbatore = () => {
                 <MapPin className="w-4 h-4 mr-2" />
                 <span>Saravanampatti, Coimbatore</span>
                 <span className="mx-2">•</span>
-                <span>January 8, 2025</span>
+                <span>October 5, 2025</span>
               </div>
 
               <div className="prose prose-lg max-w-none">

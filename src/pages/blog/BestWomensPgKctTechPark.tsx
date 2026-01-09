@@ -39,8 +39,8 @@ const BestWomensPgKctTechPark = () => {
           "url": "https://theroyalneststudiohouse.com/logo.png"
         }
       },
-      "datePublished": "2025-01-15",
-      "dateModified": "2025-01-15",
+      "datePublished": "2026-01-02",
+      "dateModified": "2026-01-02",
       "description": "Complete guide to finding the best ladies hostel near KCT Tech Park Saravanampatti. AC rooms, WiFi, security.",
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -80,7 +80,7 @@ const BestWomensPgKctTechPark = () => {
                 <MapPin className="w-4 h-4 mr-2" />
                 <span>Saravanampatti, Coimbatore</span>
                 <span className="mx-2">•</span>
-                <span>January 15, 2025</span>
+                <span>January 2, 2026</span>
               </div>
 
               <div className="prose prose-lg max-w-none">

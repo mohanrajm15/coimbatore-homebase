@@ -39,8 +39,8 @@ const WorkingWomensHostelSaravanampatti = () => {
           "url": "https://theroyalneststudiohouse.com/logo.png"
         }
       },
-      "datePublished": "2025-01-12",
-      "dateModified": "2025-01-12",
+      "datePublished": "2025-12-18",
+      "dateModified": "2025-12-18",
       "description": "Essential checklist for choosing a safe ladies hostel in Saravanampatti near KGISL and Adithya Techno Park.",
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -80,7 +80,7 @@ const WorkingWomensHostelSaravanampatti = () => {
                 <MapPin className="w-4 h-4 mr-2" />
                 <span>Saravanampatti, Coimbatore</span>
                 <span className="mx-2">•</span>
-                <span>January 12, 2025</span>
+                <span>December 18, 2025</span>
               </div>
 
               <div className="prose prose-lg max-w-none">
