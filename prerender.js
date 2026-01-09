@@ -27,6 +27,7 @@ const routesToPrerender = [
   '/blog/pg-near-colleges-saravanampatti',
   '/blog/best-womens-hostel-saravanampatti-2025',
   '/blog/womens-hostel-vs-pg-saravanampatti',
+  '/blog/top-womens-hostels-saravanampatti-comparison',
   '/womens-hostel-saravanampatti'
 ]
 

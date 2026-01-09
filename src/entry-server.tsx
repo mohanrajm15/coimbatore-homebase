@@ -93,6 +93,11 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
     title: "Women's Hostel in Saravanampatti | The Royal Nest",
     description: "Best women's hostel in Saravanampatti, Coimbatore. Safe ladies hostel near KCT Tech Park, KGISL & Adithya Techno Park. AC rooms, WiFi, 24/7 security. Monthly rent from ₹8,500.",
     canonical: 'https://www.theroyalneststudiohouse.com/womens-hostel-saravanampatti'
+  },
+  '/blog/top-womens-hostels-saravanampatti-comparison': {
+    title: "Top 6 Women's Hostels in Saravanampatti 2025 | Comparison Guide",
+    description: "Compare the top 6 women's hostels in Saravanampatti, Coimbatore near CHIL SEZ IT Park and tech parks. Find the best ladies hostel with amenities, security, and location details for 2025.",
+    canonical: 'https://www.theroyalneststudiohouse.com/blog/top-womens-hostels-saravanampatti-comparison'
   }
 };
 
