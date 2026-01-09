@@ -39,8 +39,8 @@ const LadiesHostelMonthlyRentCoimbatore = () => {
           "url": "https://theroyalneststudiohouse.com/logo.png"
         }
       },
-      "datePublished": "2025-01-10",
-      "dateModified": "2025-01-10",
+      "datePublished": "2025-10-25",
+      "dateModified": "2025-10-25",
       "description": "Complete breakdown of ladies hostel monthly rent in Saravanampatti Coimbatore. AC PG prices, amenities included.",
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -80,7 +80,7 @@ const LadiesHostelMonthlyRentCoimbatore = () => {
                 <MapPin className="w-4 h-4 mr-2" />
                 <span>Saravanampatti, Coimbatore</span>
                 <span className="mx-2">•</span>
-                <span>January 10, 2025</span>
+                <span>October 25, 2025</span>
               </div>
 
               <div className="prose prose-lg max-w-none">

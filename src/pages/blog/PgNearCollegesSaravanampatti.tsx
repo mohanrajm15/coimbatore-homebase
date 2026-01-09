@@ -39,8 +39,8 @@ const PgNearCollegesSaravanampatti = () => {
           "url": "https://theroyalneststudiohouse.com/logo.png"
         }
       },
-      "datePublished": "2025-01-05",
-      "dateModified": "2025-11-06",
+      "datePublished": "2025-09-10",
+      "dateModified": "2025-09-10",
       "description": "Find affordable ladies hostels near SNS and Kumaraguru colleges in Saravanampatti. Student-friendly PG with study areas.",
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -80,7 +80,7 @@ const PgNearCollegesSaravanampatti = () => {
                 <MapPin className="w-4 h-4 mr-2" />
                 <span>Saravanampatti, Coimbatore</span>
                 <span className="mx-2">•</span>
-                <span>January 5, 2025</span>
+                <span>September 10, 2025</span>
               </div>
 
               <div className="prose prose-lg max-w-none">

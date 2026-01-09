@@ -37,7 +37,7 @@ const WomensHostelVsPgSaravanampatti = () => {
                 A detailed comparison to help you choose the right accommodation
               </p>
               <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
-                <span>Published: January 2025</span>
+                <span>Published: December 3, 2025</span>
                 <span>•</span>
                 <span>10 min read</span>
               </div>

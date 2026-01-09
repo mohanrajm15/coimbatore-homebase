@@ -37,7 +37,7 @@ const BestWomensHostelSaravanampatti2025 = () => {
                 Your comprehensive guide to finding the perfect ladies hostel in Saravanampatti, Coimbatore
               </p>
               <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
-                <span>Published: January 2025</span>
+                <span>Published: November 15, 2025</span>
                 <span>•</span>
                 <span>12 min read</span>
               </div>
