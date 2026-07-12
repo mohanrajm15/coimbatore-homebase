@@ -6,7 +6,7 @@ import App from './App';
 const routeMeta: Record<string, { title: string; description: string; canonical: string }> = {
   '/': {
     title: 'Ladies Hostel in Saravanampatti — ₹8,500/mo',
-    description: 'Best ladies hostel in Saravanampatti near KCT Tech Park & KGISL. Safe womens hostel in Coimbatore with AC rooms, WiFi. Affordable PG for working women & students.',
+    description: 'Women-only hostel in Saravanampatti, opened 2025. Private bedroom, in-room kitchen, balcony. ₹8,500/month. Biometric entry, 20 CCTV cameras. Near KGISL & Adithya Techno Park. WhatsApp us for a same-day visit.',
     canonical: 'https://www.theroyalneststudiohouse.com/'
   },
   '/about': {
