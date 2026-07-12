@@ -28,6 +28,7 @@ const routesToPrerender = [
   '/blog/best-womens-hostel-saravanampatti-2025',
   '/blog/womens-hostel-vs-pg-saravanampatti',
   '/blog/top-womens-hostels-saravanampatti-comparison',
+  '/blog/ladies-hostel-rent-saravanampatti-2026',
   '/womens-hostel-saravanampatti'
 ]
 

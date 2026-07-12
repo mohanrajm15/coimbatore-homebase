@@ -98,6 +98,11 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
     title: "Top 6 Women's Hostels in Saravanampatti 2025 | Comparison Guide",
     description: "Compare the top 6 women's hostels in Saravanampatti, Coimbatore near CHIL SEZ IT Park and tech parks. Find the best ladies hostel with amenities, security, and location details for 2025.",
     canonical: 'https://www.theroyalneststudiohouse.com/blog/top-womens-hostels-saravanampatti-comparison'
+  },
+  '/blog/ladies-hostel-rent-saravanampatti-2026': {
+    title: 'Ladies Hostel Rent in Saravanampatti: Real 2026 Prices (₹8,500–₹11,500) | The Royal Nest',
+    description: 'Real ladies hostel rent in Saravanampatti for 2026: Deluxe triple ₹8,500, twin ₹9,500, Studio ₹11,500. ₹10,000 deposit, 3-month minimum, electricity billed at actuals. Full rent card, no hidden charges.',
+    canonical: 'https://www.theroyalneststudiohouse.com/blog/ladies-hostel-rent-saravanampatti-2026'
   }
 };
 
