@@ -5,7 +5,7 @@ import App from './App';
 // Meta tags configuration for each route
 const routeMeta: Record<string, { title: string; description: string; canonical: string }> = {
   '/': {
-    title: 'Ladies Hostel in Saravanampatti | Womens PG Near Tech Parks Coimbatore',
+    title: 'Ladies Hostel in Saravanampatti — ₹8,500/mo',
     description: 'Best ladies hostel in Saravanampatti near KCT Tech Park & KGISL. Safe womens hostel in Coimbatore with AC rooms, WiFi. Affordable PG for working women & students.',
     canonical: 'https://www.theroyalneststudiohouse.com/'
   },
