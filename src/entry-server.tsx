@@ -25,7 +25,7 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
     canonical: 'https://www.theroyalneststudiohouse.com/gallery'
   },
   '/location': {
-    title: 'Location - Ladies Hostel Near KCT Tech Park Saravanampatti | The Royal Nest',
+    title: 'Ladies Hostel Near KCT Tech Park & KGISL — 5 Min Walk, Saravanampatti',
     description: 'Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.',
     canonical: 'https://www.theroyalneststudiohouse.com/location'
   },
