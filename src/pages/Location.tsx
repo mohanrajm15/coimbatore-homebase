@@ -76,7 +76,7 @@ const nearbyPlaces = [
 
 const Location = () => {
   useEffect(() => {
-    document.title = "Location - Ladies Hostel Near KCT Tech Park Saravanampatti | The Royal Nest";
+    document.title = "Ladies Hostel Near KCT Tech Park & KGISL — 5 Min Walk, Saravanampatti";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute("content", "Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.");
