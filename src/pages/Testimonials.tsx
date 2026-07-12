@@ -56,6 +56,10 @@ const Testimonials = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Read reviews from residents of our womens hostel in Saravanampatti. Working women and students share their experience at The Royal Nest ladies PG.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Read reviews from residents of our womens hostel in Saravanampatti. Working women and students share their experience at The Royal Nest ladies PG.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Read reviews from residents of our womens hostel in Saravanampatti. Working women and students share their experience at The Royal Nest ladies PG.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

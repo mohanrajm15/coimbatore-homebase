@@ -13,6 +13,10 @@ const BestWomensHostelSaravanampatti2025 = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Discover the best women's hostel in Saravanampatti for 2025. Complete guide covering ladies hostel options near IT Park, KGISL, TCS, Cognizant with AC, WiFi, security & attached bathrooms.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Discover the best women's hostel in Saravanampatti for 2025. Complete guide covering ladies hostel options near IT Park, KGISL, TCS, Cognizant with AC, WiFi, security & attached bathrooms.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Discover the best women's hostel in Saravanampatti for 2025. Complete guide covering ladies hostel options near IT Park, KGISL, TCS, Cognizant with AC, WiFi, security & attached bathrooms.");
     const canonicalLink = document.querySelector('link[rel="canonical"]');
     if (canonicalLink) {
       canonicalLink.setAttribute("href", "https://theroyalneststudiohouse.com/blog/best-womens-hostel-saravanampatti-2025");

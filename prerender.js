@@ -46,6 +46,14 @@ const routesToPrerender = [
       metaTags.match(/<meta name="description" content=".*?" \/>/)[0]
     );
     html = html.replace(
+      /<meta property="og:description" content=".*?" \/>/,
+      metaTags.match(/<meta property="og:description" content=".*?" \/>/)[0]
+    );
+    html = html.replace(
+      /<meta name="twitter:description" content=".*?" \/>/,
+      metaTags.match(/<meta name="twitter:description" content=".*?" \/>/)[0]
+    );
+    html = html.replace(
       /<link rel="canonical" href=".*?" \/>/,
       metaTags.match(/<link rel="canonical" href=".*?" \/>/)[0]
     );

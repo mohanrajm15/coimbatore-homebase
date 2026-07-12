@@ -11,6 +11,10 @@ const About = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Learn about The Royal Nest - premium womens hostel in Saravanampatti. Exclusively for women near tech parks and colleges in Coimbatore.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Learn about The Royal Nest - premium womens hostel in Saravanampatti. Exclusively for women near tech parks and colleges in Coimbatore.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Learn about The Royal Nest - premium womens hostel in Saravanampatti. Exclusively for women near tech parks and colleges in Coimbatore.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

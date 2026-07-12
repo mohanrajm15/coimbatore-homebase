@@ -14,6 +14,10 @@ const Blog = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Expert guides on finding ladies hostels in Saravanampatti, Coimbatore. Tips for working women, students, and PG seekers near tech parks.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Expert guides on finding ladies hostels in Saravanampatti, Coimbatore. Tips for working women, students, and PG seekers near tech parks.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Expert guides on finding ladies hostels in Saravanampatti, Coimbatore. Tips for working women, students, and PG seekers near tech parks.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

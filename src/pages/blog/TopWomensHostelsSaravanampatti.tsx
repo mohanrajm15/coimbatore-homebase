@@ -28,7 +28,11 @@ const TopWomensHostelsSaravanampatti = () => {
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute("content", "Compare the top 6 women's hostels in Saravanampatti, Coimbatore near CHIL SEZ IT Park and tech parks. Find the best ladies hostel with amenities, security, and location details for 2026.");
-    } else {
+    }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Compare the top 6 women's hostels in Saravanampatti, Coimbatore near CHIL SEZ IT Park and tech parks. Find the best ladies hostel with amenities, security, and location details for 2026.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Compare the top 6 women's hostels in Saravanampatti, Coimbatore near CHIL SEZ IT Park and tech parks. Find the best ladies hostel with amenities, security, and location details for 2026."); else {
       const meta = document.createElement('meta');
       meta.name = "description";
       meta.content = "Compare the top 6 women's hostels in Saravanampatti, Coimbatore near CHIL SEZ IT Park and tech parks. Find the best ladies hostel with amenities, security, and location details for 2026.";

@@ -40,6 +40,10 @@ const WomensHostelSaravanampatti = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Best women's hostel in Saravanampatti, Coimbatore. Safe ladies hostel near KCT Tech Park, KGISL & Adithya Techno Park. AC rooms, WiFi, 24/7 security. Monthly rent from ₹8,500.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Best women's hostel in Saravanampatti, Coimbatore. Safe ladies hostel near KCT Tech Park, KGISL & Adithya Techno Park. AC rooms, WiFi, 24/7 security. Monthly rent from ₹8,500.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Best women's hostel in Saravanampatti, Coimbatore. Safe ladies hostel near KCT Tech Park, KGISL & Adithya Techno Park. AC rooms, WiFi, 24/7 security. Monthly rent from ₹8,500.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

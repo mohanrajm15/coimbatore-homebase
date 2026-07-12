@@ -24,6 +24,10 @@ const Contact = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Contact The Royal Nest womens hostel in Saravanampatti. Book a visit to our ladies PG near tech parks in Coimbatore. Call or WhatsApp us today.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Contact The Royal Nest womens hostel in Saravanampatti. Book a visit to our ladies PG near tech parks in Coimbatore. Call or WhatsApp us today.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Contact The Royal Nest womens hostel in Saravanampatti. Book a visit to our ladies PG near tech parks in Coimbatore. Call or WhatsApp us today.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

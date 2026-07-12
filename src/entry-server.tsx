@@ -117,6 +117,9 @@ export function getMetaTags(url: string): string {
   return `
     <title>${meta.title}</title>
     <meta name="description" content="${meta.description}" />
+    <meta property="og:description" content="${meta.description}" />
+    <meta name="twitter:description" content="${meta.description}" />
     <link rel="canonical" href="${meta.canonical}" />
   `;
 }
+

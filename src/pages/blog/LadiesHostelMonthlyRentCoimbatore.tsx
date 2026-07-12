@@ -13,6 +13,10 @@ const LadiesHostelMonthlyRentCoimbatore = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Complete breakdown of ladies hostel monthly rent in Saravanampatti Coimbatore. AC PG prices, amenities included, and what affects rental costs in 2025.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Complete breakdown of ladies hostel monthly rent in Saravanampatti Coimbatore. AC PG prices, amenities included, and what affects rental costs in 2025.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Complete breakdown of ladies hostel monthly rent in Saravanampatti Coimbatore. AC PG prices, amenities included, and what affects rental costs in 2025.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {
