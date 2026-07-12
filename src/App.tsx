@@ -23,6 +23,7 @@ import PgNearCollegesSaravanampatti from "./pages/blog/PgNearCollegesSaravanampa
 import BestWomensHostelSaravanampatti2025 from "./pages/blog/BestWomensHostelSaravanampatti2025";
 import WomensHostelVsPgSaravanampatti from "./pages/blog/WomensHostelVsPgSaravanampatti";
 import TopWomensHostelsSaravanampatti from "./pages/blog/TopWomensHostelsSaravanampatti";
+import LadiesHostelRentSaravanampatti2026 from "./pages/blog/LadiesHostelRentSaravanampatti2026";
 import WomensHostelSaravanampatti from "./pages/WomensHostelSaravanampatti";
 import NotFound from "./pages/NotFound";
 
@@ -59,6 +60,7 @@ const App = () => (
         <Route path="/blog/best-womens-hostel-saravanampatti-2025" element={<BestWomensHostelSaravanampatti2025 />} />
         <Route path="/blog/womens-hostel-vs-pg-saravanampatti" element={<WomensHostelVsPgSaravanampatti />} />
         <Route path="/blog/top-womens-hostels-saravanampatti-comparison" element={<TopWomensHostelsSaravanampatti />} />
+        <Route path="/blog/ladies-hostel-rent-saravanampatti-2026" element={<LadiesHostelRentSaravanampatti2026 />} />
         <Route path="/womens-hostel-saravanampatti" element={<WomensHostelSaravanampatti />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

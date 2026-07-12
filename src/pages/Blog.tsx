@@ -30,6 +30,13 @@ const Blog = () => {
 
   const blogPosts = [
     {
+      id: "ladies-hostel-rent-saravanampatti-2026",
+      title: "Ladies Hostel Rent in Saravanampatti: Real 2026 Prices (₹8,500–₹11,500)",
+      excerpt: "Full published rent card for a women-only hostel in Saravanampatti. Deluxe triple ₹8,500, twin ₹9,500, Studio ₹11,500. Deposit, electricity and deposit norms explained.",
+      date: "2026-01-15",
+      slug: "/blog/ladies-hostel-rent-saravanampatti-2026"
+    },
+    {
       id: "top-womens-hostels-saravanampatti-comparison",
       title: "Top 6 Women's Hostels in Saravanampatti – A Complete Comparison Guide (2026)",
       excerpt: "Compare the best ladies hostels near CHIL SEZ IT Park & tech parks. Detailed comparison of amenities, security, and location.",
