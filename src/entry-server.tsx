@@ -16,7 +16,7 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
   },
   '/rooms': {
     title: 'Twin & Triple Sharing Ladies PG Saravanampatti — Room + Kitchen',
-    description: 'AC ladies hostel rooms in Saravanampatti. Deluxe and Suite options for working women. Affordable monthly rent with modern amenities.',
+    description: 'Not a bunk-bed hostel. Every room: private bedroom, attached bathroom, kitchen area, balcony, AC available. Photos of every room type inside. Ladies PG in Saravanampatti from ₹8,500/month.',
     canonical: 'https://www.theroyalneststudiohouse.com/rooms'
   },
   '/gallery': {
