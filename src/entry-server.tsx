@@ -15,7 +15,7 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
     canonical: 'https://www.theroyalneststudiohouse.com/about'
   },
   '/rooms': {
-    title: 'Rooms & Accommodation - Ladies Hostel Saravanampatti | The Royal Nest',
+    title: 'Twin & Triple Sharing Ladies PG Saravanampatti — Room + Kitchen',
     description: 'AC ladies hostel rooms in Saravanampatti. Deluxe and Suite options for working women. Affordable monthly rent with modern amenities.',
     canonical: 'https://www.theroyalneststudiohouse.com/rooms'
   },
