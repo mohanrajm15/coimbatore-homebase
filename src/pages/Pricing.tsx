@@ -71,6 +71,10 @@ const Pricing = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Affordable ladies hostel monthly rent in Saravanampatti from ₹8,500. AC womens PG near tech parks Coimbatore with transparent pricing & no hidden fees.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Affordable ladies hostel monthly rent in Saravanampatti from ₹8,500. AC womens PG near tech parks Coimbatore with transparent pricing & no hidden fees.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Affordable ladies hostel monthly rent in Saravanampatti from ₹8,500. AC womens PG near tech parks Coimbatore with transparent pricing & no hidden fees.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

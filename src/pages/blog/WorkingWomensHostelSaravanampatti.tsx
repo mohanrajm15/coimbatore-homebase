@@ -13,6 +13,10 @@ const WorkingWomensHostelSaravanampatti = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Essential checklist for choosing a safe ladies hostel in Saravanampatti near KGISL and Adithya Techno Park. What working women should look for in a PG.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Essential checklist for choosing a safe ladies hostel in Saravanampatti near KGISL and Adithya Techno Park. What working women should look for in a PG.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Essential checklist for choosing a safe ladies hostel in Saravanampatti near KGISL and Adithya Techno Park. What working women should look for in a PG.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

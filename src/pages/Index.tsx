@@ -15,6 +15,10 @@ const Index = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Best ladies hostel in Saravanampatti near KCT Tech Park & KGISL. Safe womens hostel in Coimbatore with AC rooms, WiFi. Affordable PG for working women & students.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Best ladies hostel in Saravanampatti near KCT Tech Park & KGISL. Safe womens hostel in Coimbatore with AC rooms, WiFi. Affordable PG for working women & students.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Best ladies hostel in Saravanampatti near KCT Tech Park & KGISL. Safe womens hostel in Coimbatore with AC rooms, WiFi. Affordable PG for working women & students.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

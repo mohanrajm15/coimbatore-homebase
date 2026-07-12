@@ -13,6 +13,10 @@ const WomensHostelVsPgSaravanampatti = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Confused between women's hostel and PG in Saravanampatti? Compare facilities, pricing, security & amenities. Complete guide for IT professionals & students.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Confused between women's hostel and PG in Saravanampatti? Compare facilities, pricing, security & amenities. Complete guide for IT professionals & students.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Confused between women's hostel and PG in Saravanampatti? Compare facilities, pricing, security & amenities. Complete guide for IT professionals & students.");
     const canonicalLink = document.querySelector('link[rel="canonical"]');
     if (canonicalLink) {
       canonicalLink.setAttribute("href", "https://theroyalneststudiohouse.com/blog/womens-hostel-vs-pg-saravanampatti");

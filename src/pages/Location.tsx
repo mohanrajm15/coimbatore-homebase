@@ -81,6 +81,10 @@ const Location = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

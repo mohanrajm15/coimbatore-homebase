@@ -19,6 +19,10 @@ const FAQ = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Common questions about our ladies hostel near Saravanampatti Coimbatore. Monthly rent, facilities, safety, and proximity to tech parks answered.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Common questions about our ladies hostel near Saravanampatti Coimbatore. Monthly rent, facilities, safety, and proximity to tech parks answered.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Common questions about our ladies hostel near Saravanampatti Coimbatore. Monthly rent, facilities, safety, and proximity to tech parks answered.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

@@ -106,6 +106,10 @@ const Rooms = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "Explore AC ladies hostel rooms in Saravanampatti. Deluxe & Suite options for womens PG near Coimbatore tech parks. Fully furnished with WiFi & kitchen.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "Explore AC ladies hostel rooms in Saravanampatti. Deluxe & Suite options for womens PG near Coimbatore tech parks. Fully furnished with WiFi & kitchen.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "Explore AC ladies hostel rooms in Saravanampatti. Deluxe & Suite options for womens PG near Coimbatore tech parks. Fully furnished with WiFi & kitchen.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

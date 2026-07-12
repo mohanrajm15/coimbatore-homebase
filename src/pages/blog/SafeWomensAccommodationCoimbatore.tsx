@@ -13,6 +13,10 @@ const SafeWomensAccommodationCoimbatore = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "How to choose a secure ladies hostel in Saravanampatti Coimbatore. Safety tips for women-only PG with 24/7 security and CCTV surveillance.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "How to choose a secure ladies hostel in Saravanampatti Coimbatore. Safety tips for women-only PG with 24/7 security and CCTV surveillance.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "How to choose a secure ladies hostel in Saravanampatti Coimbatore. Safety tips for women-only PG with 24/7 security and CCTV surveillance.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

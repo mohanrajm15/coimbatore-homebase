@@ -103,6 +103,10 @@ const Gallery = () => {
     if (metaDescription) {
       metaDescription.setAttribute("content", "View photos of our womens hostel in Saravanampatti. AC rooms, kitchen, balcony, and amenities at The Royal Nest ladies PG Coimbatore.");
     }
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute("content", "View photos of our womens hostel in Saravanampatti. AC rooms, kitchen, balcony, and amenities at The Royal Nest ladies PG Coimbatore.");
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDescription) twitterDescription.setAttribute("content", "View photos of our womens hostel in Saravanampatti. AC rooms, kitchen, balcony, and amenities at The Royal Nest ladies PG Coimbatore.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {
