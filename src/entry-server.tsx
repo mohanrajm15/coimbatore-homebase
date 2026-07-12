@@ -31,7 +31,7 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
   },
   '/pricing': {
     title: 'Ladies Hostel Saravanampatti Rent: ₹8,500–₹11,500/Month (2026)',
-    description: 'Transparent pricing for ladies hostel in Saravanampatti. Monthly rent from ₹8,500. No hidden charges. AC rooms, WiFi, security included.',
+    description: 'Full rent card, no hidden charges: Deluxe triple ₹8,500, twin ₹9,500, Studio ₹11,500. ₹10,000 deposit, 3-month minimum, electricity billed at actuals. Compare us to any ladies hostel in Saravanampatti.',
     canonical: 'https://www.theroyalneststudiohouse.com/pricing'
   },
   '/testimonials': {
