@@ -102,7 +102,7 @@ const Pricing = () => {
                 Transparent Pricing
               </h1>
               <p className="text-xl text-muted-foreground">
-                Contact us for pricing. All-inclusive rates with no hidden charges.
+                All-inclusive rates from ₹8,500/month. No hidden charges.
               </p>
             </div>
           </div>
