@@ -6,7 +6,7 @@ import App from './App';
 const routeMeta: Record<string, { title: string; description: string; canonical: string }> = {
   '/': {
     title: 'Ladies Hostel in Saravanampatti — ₹8,500/mo',
-    description: 'Best ladies hostel in Saravanampatti near KCT Tech Park & KGISL. Safe womens hostel in Coimbatore with AC rooms, WiFi. Affordable PG for working women & students.',
+    description: 'Women-only hostel in Saravanampatti, opened 2025. Private bedroom, in-room kitchen, balcony. ₹8,500/month. Biometric entry, 20 CCTV cameras. Near KGISL & Adithya Techno Park. WhatsApp us for a same-day visit.',
     canonical: 'https://www.theroyalneststudiohouse.com/'
   },
   '/about': {
@@ -16,7 +16,7 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
   },
   '/rooms': {
     title: 'Twin & Triple Sharing Ladies PG Saravanampatti — Room + Kitchen',
-    description: 'AC ladies hostel rooms in Saravanampatti. Deluxe and Suite options for working women. Affordable monthly rent with modern amenities.',
+    description: 'Not a bunk-bed hostel. Every room: private bedroom, attached bathroom, kitchen area, balcony, AC available. Photos of every room type inside. Ladies PG in Saravanampatti from ₹8,500/month.',
     canonical: 'https://www.theroyalneststudiohouse.com/rooms'
   },
   '/gallery': {
@@ -26,12 +26,12 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
   },
   '/location': {
     title: 'Ladies Hostel Near KCT Tech Park & KGISL — 5 Min Walk, Saravanampatti',
-    description: 'Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.',
+    description: 'Walking distance to Adithya Techno Park, KGISL Campus and CHIL-SEZ. Exact distances to KCT, Kumaraguru, SNS and the bus stop listed. Ladies hostel in Saravanampatti built for IT commuters.',
     canonical: 'https://www.theroyalneststudiohouse.com/location'
   },
   '/pricing': {
     title: 'Ladies Hostel Saravanampatti Rent: ₹8,500–₹11,500/Month (2026)',
-    description: 'Transparent pricing for ladies hostel in Saravanampatti. Monthly rent from ₹8,500. No hidden charges. AC rooms, WiFi, security included.',
+    description: 'Full rent card, no hidden charges: Deluxe triple ₹8,500, twin ₹9,500, Studio ₹11,500. ₹10,000 deposit, 3-month minimum, electricity billed at actuals. Compare us to any ladies hostel in Saravanampatti.',
     canonical: 'https://www.theroyalneststudiohouse.com/pricing'
   },
   '/testimonials': {

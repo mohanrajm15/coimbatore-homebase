@@ -104,12 +104,12 @@ const Rooms = () => {
     document.title = "Twin & Triple Sharing Ladies PG Saravanampatti — Room + Kitchen";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Explore AC ladies hostel rooms in Saravanampatti. Deluxe & Suite options for womens PG near Coimbatore tech parks. Fully furnished with WiFi & kitchen.");
+      metaDescription.setAttribute("content", "Not a bunk-bed hostel. Every room: private bedroom, attached bathroom, kitchen area, balcony, AC available. Photos of every room type inside. Ladies PG in Saravanampatti from ₹8,500/month.");
     }
     const ogDescription = document.querySelector('meta[property="og:description"]');
-    if (ogDescription) ogDescription.setAttribute("content", "Explore AC ladies hostel rooms in Saravanampatti. Deluxe & Suite options for womens PG near Coimbatore tech parks. Fully furnished with WiFi & kitchen.");
+    if (ogDescription) ogDescription.setAttribute("content", "Not a bunk-bed hostel. Every room: private bedroom, attached bathroom, kitchen area, balcony, AC available. Photos of every room type inside. Ladies PG in Saravanampatti from ₹8,500/month.");
     const twitterDescription = document.querySelector('meta[name="twitter:description"]');
-    if (twitterDescription) twitterDescription.setAttribute("content", "Explore AC ladies hostel rooms in Saravanampatti. Deluxe & Suite options for womens PG near Coimbatore tech parks. Fully furnished with WiFi & kitchen.");
+    if (twitterDescription) twitterDescription.setAttribute("content", "Not a bunk-bed hostel. Every room: private bedroom, attached bathroom, kitchen area, balcony, AC available. Photos of every room type inside. Ladies PG in Saravanampatti from ₹8,500/month.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

@@ -69,12 +69,12 @@ const Pricing = () => {
     document.title = "Ladies Hostel Saravanampatti Rent: ₹8,500–₹11,500/Month (2026)";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Affordable ladies hostel monthly rent in Saravanampatti from ₹8,500. AC womens PG near tech parks Coimbatore with transparent pricing & no hidden fees.");
+      metaDescription.setAttribute("content", "Full rent card, no hidden charges: Deluxe triple ₹8,500, twin ₹9,500, Studio ₹11,500. ₹10,000 deposit, 3-month minimum, electricity billed at actuals. Compare us to any ladies hostel in Saravanampatti.");
     }
     const ogDescription = document.querySelector('meta[property="og:description"]');
-    if (ogDescription) ogDescription.setAttribute("content", "Affordable ladies hostel monthly rent in Saravanampatti from ₹8,500. AC womens PG near tech parks Coimbatore with transparent pricing & no hidden fees.");
+    if (ogDescription) ogDescription.setAttribute("content", "Full rent card, no hidden charges: Deluxe triple ₹8,500, twin ₹9,500, Studio ₹11,500. ₹10,000 deposit, 3-month minimum, electricity billed at actuals. Compare us to any ladies hostel in Saravanampatti.");
     const twitterDescription = document.querySelector('meta[name="twitter:description"]');
-    if (twitterDescription) twitterDescription.setAttribute("content", "Affordable ladies hostel monthly rent in Saravanampatti from ₹8,500. AC womens PG near tech parks Coimbatore with transparent pricing & no hidden fees.");
+    if (twitterDescription) twitterDescription.setAttribute("content", "Full rent card, no hidden charges: Deluxe triple ₹8,500, twin ₹9,500, Studio ₹11,500. ₹10,000 deposit, 3-month minimum, electricity billed at actuals. Compare us to any ladies hostel in Saravanampatti.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

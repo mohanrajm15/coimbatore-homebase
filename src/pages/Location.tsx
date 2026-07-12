@@ -79,12 +79,12 @@ const Location = () => {
     document.title = "Ladies Hostel Near KCT Tech Park & KGISL — 5 Min Walk, Saravanampatti";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.");
+      metaDescription.setAttribute("content", "Walking distance to Adithya Techno Park, KGISL Campus and CHIL-SEZ. Exact distances to KCT, Kumaraguru, SNS and the bus stop listed. Ladies hostel in Saravanampatti built for IT commuters.");
     }
     const ogDescription = document.querySelector('meta[property="og:description"]');
-    if (ogDescription) ogDescription.setAttribute("content", "Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.");
+    if (ogDescription) ogDescription.setAttribute("content", "Walking distance to Adithya Techno Park, KGISL Campus and CHIL-SEZ. Exact distances to KCT, Kumaraguru, SNS and the bus stop listed. Ladies hostel in Saravanampatti built for IT commuters.");
     const twitterDescription = document.querySelector('meta[name="twitter:description"]');
-    if (twitterDescription) twitterDescription.setAttribute("content", "Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.");
+    if (twitterDescription) twitterDescription.setAttribute("content", "Walking distance to Adithya Techno Park, KGISL Campus and CHIL-SEZ. Exact distances to KCT, Kumaraguru, SNS and the bus stop listed. Ladies hostel in Saravanampatti built for IT commuters.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {

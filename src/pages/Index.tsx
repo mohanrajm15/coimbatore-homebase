@@ -13,12 +13,12 @@ const Index = () => {
     document.title = "Ladies Hostel in Saravanampatti — ₹8,500/mo";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", "Best ladies hostel in Saravanampatti near KCT Tech Park & KGISL. Safe womens hostel in Coimbatore with AC rooms, WiFi. Affordable PG for working women & students.");
+      metaDescription.setAttribute("content", "Women-only hostel in Saravanampatti, opened 2025. Private bedroom, in-room kitchen, balcony. ₹8,500/month. Biometric entry, 20 CCTV cameras. Near KGISL & Adithya Techno Park. WhatsApp us for a same-day visit.");
     }
     const ogDescription = document.querySelector('meta[property="og:description"]');
-    if (ogDescription) ogDescription.setAttribute("content", "Best ladies hostel in Saravanampatti near KCT Tech Park & KGISL. Safe womens hostel in Coimbatore with AC rooms, WiFi. Affordable PG for working women & students.");
+    if (ogDescription) ogDescription.setAttribute("content", "Women-only hostel in Saravanampatti, opened 2025. Private bedroom, in-room kitchen, balcony. ₹8,500/month. Biometric entry, 20 CCTV cameras. Near KGISL & Adithya Techno Park. WhatsApp us for a same-day visit.");
     const twitterDescription = document.querySelector('meta[name="twitter:description"]');
-    if (twitterDescription) twitterDescription.setAttribute("content", "Best ladies hostel in Saravanampatti near KCT Tech Park & KGISL. Safe womens hostel in Coimbatore with AC rooms, WiFi. Affordable PG for working women & students.");
+    if (twitterDescription) twitterDescription.setAttribute("content", "Women-only hostel in Saravanampatti, opened 2025. Private bedroom, in-room kitchen, balcony. ₹8,500/month. Biometric entry, 20 CCTV cameras. Near KGISL & Adithya Techno Park. WhatsApp us for a same-day visit.");
     
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {
