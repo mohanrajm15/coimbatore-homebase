@@ -26,7 +26,7 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
   },
   '/location': {
     title: 'Ladies Hostel Near KCT Tech Park & KGISL — 5 Min Walk, Saravanampatti',
-    description: 'Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.',
+    description: 'Walking distance to Adithya Techno Park, KGISL Campus and CHIL-SEZ. Exact distances to KCT, Kumaraguru, SNS and the bus stop listed. Ladies hostel in Saravanampatti built for IT commuters.',
     canonical: 'https://www.theroyalneststudiohouse.com/location'
   },
   '/pricing': {
