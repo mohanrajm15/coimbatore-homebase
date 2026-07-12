@@ -66,7 +66,7 @@ const pricingPlans = [
 
 const Pricing = () => {
   useEffect(() => {
-    document.title = "Pricing - Ladies Hostel Monthly Rent Saravanampatti | The Royal Nest";
+    document.title = "Ladies Hostel Saravanampatti Rent: ₹8,500–₹11,500/Month (2026)";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute("content", "Affordable ladies hostel monthly rent in Saravanampatti from ₹8,500. AC womens PG near tech parks Coimbatore with transparent pricing & no hidden fees.");
