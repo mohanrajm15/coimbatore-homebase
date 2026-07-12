@@ -5,7 +5,7 @@ import App from './App';
 // Meta tags configuration for each route
 const routeMeta: Record<string, { title: string; description: string; canonical: string }> = {
   '/': {
-    title: 'Ladies Hostel in Saravanampatti | Womens PG Near Tech Parks Coimbatore',
+    title: 'Ladies Hostel in Saravanampatti — ₹8,500/mo',
     description: 'Best ladies hostel in Saravanampatti near KCT Tech Park & KGISL. Safe womens hostel in Coimbatore with AC rooms, WiFi. Affordable PG for working women & students.',
     canonical: 'https://www.theroyalneststudiohouse.com/'
   },
@@ -15,7 +15,7 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
     canonical: 'https://www.theroyalneststudiohouse.com/about'
   },
   '/rooms': {
-    title: 'Rooms & Accommodation - Ladies Hostel Saravanampatti | The Royal Nest',
+    title: 'Twin & Triple Sharing Ladies PG Saravanampatti — Room + Kitchen',
     description: 'AC ladies hostel rooms in Saravanampatti. Deluxe and Suite options for working women. Affordable monthly rent with modern amenities.',
     canonical: 'https://www.theroyalneststudiohouse.com/rooms'
   },
@@ -25,12 +25,12 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
     canonical: 'https://www.theroyalneststudiohouse.com/gallery'
   },
   '/location': {
-    title: 'Location - Ladies Hostel Near KCT Tech Park Saravanampatti | The Royal Nest',
+    title: 'Ladies Hostel Near KCT Tech Park & KGISL — 5 Min Walk, Saravanampatti',
     description: 'Womens hostel near KCT Tech Park, KGISL & colleges in Saravanampatti. Perfect location for ladies PG in Coimbatore with excellent connectivity.',
     canonical: 'https://www.theroyalneststudiohouse.com/location'
   },
   '/pricing': {
-    title: 'Pricing - Affordable Ladies Hostel Monthly Rent Coimbatore | The Royal Nest',
+    title: 'Ladies Hostel Saravanampatti Rent: ₹8,500–₹11,500/Month (2026)',
     description: 'Transparent pricing for ladies hostel in Saravanampatti. Monthly rent from ₹8,500. No hidden charges. AC rooms, WiFi, security included.',
     canonical: 'https://www.theroyalneststudiohouse.com/pricing'
   },

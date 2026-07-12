@@ -10,7 +10,7 @@ import { useEffect } from "react";
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Ladies Hostel in Saravanampatti | Womens PG Near Tech Parks Coimbatore";
+    document.title = "Ladies Hostel in Saravanampatti — ₹8,500/mo";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute("content", "Best ladies hostel in Saravanampatti near KCT Tech Park & KGISL. Safe womens hostel in Coimbatore with AC rooms, WiFi. Affordable PG for working women & students.");
