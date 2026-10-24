@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import heroImage from "@/assets/hero-coliving.jpg";
+import heroImage from "@/assets/exterior-front.jpg";
 
 const Hero = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -25,9 +25,9 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         {imageLoaded ? (
           <img 
-            src={heroImage} 
-            alt="The Royal Nest Studio House ladies hostel entrance in Saravanampatti Coimbatore - Safe womens accommodation near tech parks" 
-            className="w-full h-full object-cover"
+            src={heroImage}
+            alt="The Royal Nest Studio House building exterior in Saravanampatti Coimbatore - Safe womens accommodation near tech parks"
+            className="w-full h-full object-cover brightness-110 saturate-[0.85]"
             width="1920"
             height="1080"
           />
