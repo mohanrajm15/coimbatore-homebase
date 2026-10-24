@@ -11,3 +11,7 @@ Waiting on a Netlify deploy. Conflicting deposit terms require confirmation befo
 
 - [x] Apply the selected palette and heading/body fonts globally without changing page content or navigation.
 - [x] Verify unchanged content and navigation, font loading, and desktop/mobile layout.
+
+# Hyperlocal blog drafts
+
+- [ ] Research and present a Saravanampatti–Peelamedu–Gandhipuram locality comparison and Saravanampatti commute guide for review; do not add them to the website yet.
