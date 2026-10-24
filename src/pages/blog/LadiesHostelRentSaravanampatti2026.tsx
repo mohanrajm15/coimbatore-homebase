@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "What is included in the monthly rent?",
-    a: "Private bedroom, attached bathroom, kitchen facilities, fully furnished room, high-speed WiFi, AC available, balcony access, power backup, 24/7 CCTV security, housekeeping, dedicated parking, municipality water and common area maintenance."
+    a: "The rent is for the room only: private bedroom, attached bathroom, kitchen facilities, fully furnished room, balcony access and dedicated parking. High-speed WiFi, AC, bathroom geyser, washing machine, refrigerator, water dispenser, power backup, 24/7 CCTV security and housekeeping are complimentary."
   },
   {
     q: "How much notice do I need to give before moving out?",
@@ -179,19 +179,17 @@ const LadiesHostelRentSaravanampatti2026 = () => {
                   the honest split at The Royal Nest.
                 </p>
 
-                <h3 className="text-xl font-semibold mt-6">Included in the monthly rent</h3>
+                <h3 className="text-xl font-semibold mt-6">Covered by the monthly room rent</h3>
                 <ul className="space-y-2">
                   {[
                     "Private bedroom with attached bathroom",
                     "Kitchen facilities in the room",
                     "Fully furnished (bed, storage, work surface)",
-                    "High-speed WiFi",
-                    "AC available",
                     "Balcony access",
-                    "Power backup",
-                    "24/7 CCTV security",
-                    "Housekeeping",
                     "Dedicated parking",
+                    "Complimentary: high-speed WiFi, AC, bathroom geyser",
+                    "Complimentary: washing machine, refrigerator, water dispenser",
+                    "Complimentary: power backup, 24/7 CCTV security, housekeeping",
                     "Municipality water",
                     "Common area maintenance"
                   ].map((item) => (

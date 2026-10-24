@@ -59,7 +59,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "What is the monthly rent for ladies hostel in Saravanampatti?",
-      answer: "Our monthly rent ranges from ₹8,500 to ₹11,500 depending on room type. Deluxe rooms start at ₹8,500 per month for triple occupancy, while Suite rooms are ₹11,500 per month for triple occupancy. All rates include WiFi, housekeeping, and basic amenities."
+      answer: "Our monthly rent ranges from ₹8,500 to ₹11,500 depending on room type. Deluxe rooms start at ₹8,500 per month for triple occupancy, while Suite rooms are ₹11,500 per month for triple occupancy. Rent is for the room only; WiFi, housekeeping and other amenities are complimentary."
     },
     {
       question: "Is the ladies hostel near KCT Tech Park and KGISL?",
@@ -75,7 +75,7 @@ const FAQ = () => {
     },
     {
       question: "What amenities are included in the womens hostel?",
-      answer: "Our AC ladies hostel includes high-speed WiFi, power backup generator, housekeeping, washing machine, fully furnished rooms, study areas, and common recreational spaces. All rooms have attached bathrooms and storage facilities."
+      answer: "Our AC ladies hostel offers complimentary high-speed WiFi, power backup generator, housekeeping, washing machine, fully furnished rooms, study areas, and common recreational spaces. All rooms have attached bathrooms and storage facilities."
     },
     {
       question: "Is the PG near colleges like SNS and Kumaraguru?",

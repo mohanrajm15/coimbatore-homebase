@@ -39,7 +39,7 @@ const features = [
   {
     icon: Sparkles,
     title: "Housekeeping",
-    description: "Twice a week cleaning service included, additional cleaning on request"
+    description: "Complimentary twice-a-week cleaning, additional cleaning on request"
   }
 ];
 

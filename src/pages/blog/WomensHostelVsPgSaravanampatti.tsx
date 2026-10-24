@@ -407,7 +407,7 @@ const WomensHostelVsPgSaravanampatti = () => {
                     "Near IT Park, TCS, Cognizant & KGISL",
                     "Washing machine & modern amenities",
                     "Flexible policies for IT professionals",
-                    "Transparent all-inclusive pricing",
+                    "Transparent room-only pricing with complimentary amenities",
                     "Dedicated study and work areas"
                   ].map((feature, index) => (
                     <div key={index} className="flex items-center gap-2">
