@@ -125,7 +125,7 @@ const WomensHostelSaravanampatti = () => {
     { icon: Snowflake, title: "AC Rooms", description: "All rooms fully air-conditioned for comfort" },
     { icon: Users, title: "Women Only", description: "Exclusive accommodation for women students & professionals" },
     { icon: Car, title: "Parking Space", description: "Covered 2-wheeler & free 4-wheeler parking" },
-    { icon: Sparkles, title: "Housekeeping", description: "Twice weekly cleaning service included" },
+    { icon: Sparkles, title: "Housekeeping", description: "Complimentary twice-weekly cleaning" },
   ];
 
   const reviews = [
@@ -137,7 +137,7 @@ const WomensHostelSaravanampatti = () => {
   const faqs = [
     {
       question: "What is the monthly rent for women's hostel in Saravanampatti?",
-      answer: "Monthly rent starts from ₹8,500 for Deluxe rooms (triple sharing) and ₹11,500 for Suite rooms (triple sharing). All rates include WiFi, housekeeping, and basic amenities."
+      answer: "Monthly rent starts from ₹8,500 for Deluxe rooms (triple sharing) and ₹11,500 for Suite rooms (triple sharing). Rent is for the room only; WiFi, housekeeping and other amenities are complimentary."
     },
     {
       question: "Is the women's hostel near IT parks in Saravanampatti?",
