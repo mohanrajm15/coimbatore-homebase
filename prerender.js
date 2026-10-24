@@ -24,6 +24,8 @@ const routesToPrerender = [
   '/blog/working-womens-hostel-saravanampatti',
   '/blog/ladies-hostel-monthly-rent-coimbatore',
   '/blog/safe-womens-accommodation-coimbatore',
+  '/blog/saravanampatti-vs-peelamedu-vs-gandhipuram',
+  '/blog/saravanampatti-commute-guide',
   '/blog/pg-near-colleges-saravanampatti',
   '/blog/best-womens-hostel-saravanampatti-2025',
   '/blog/womens-hostel-vs-pg-saravanampatti',

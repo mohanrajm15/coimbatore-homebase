@@ -30,6 +30,20 @@ const Blog = () => {
 
   const blogPosts = [
     {
+      id: "saravanampatti-commute-guide",
+      title: "Getting Around Saravanampatti: A Commute Guide for Women Students and IT Freshers (2026)",
+      excerpt: "Reaching Saravanampatti from the airport and Gandhipuram, campus addresses for KGiSL, CHIL SEZ IT Park and Kumaraguru, and official transport links.",
+      date: "2026-03-12",
+      slug: "/blog/saravanampatti-commute-guide"
+    },
+    {
+      id: "saravanampatti-vs-peelamedu-vs-gandhipuram",
+      title: "Saravanampatti vs Peelamedu vs Gandhipuram: Where Should You Stay in 2026?",
+      excerpt: "Which Coimbatore area suits women students and IT freshers at KGiSL, CHIL SEZ IT Park, Kumaraguru or PSG.",
+      date: "2026-02-17",
+      slug: "/blog/saravanampatti-vs-peelamedu-vs-gandhipuram"
+    },
+    {
       id: "ladies-hostel-rent-saravanampatti-2026",
       title: "Ladies Hostel Rent in Saravanampatti: Real 2026 Prices (₹8,500–₹11,500)",
       excerpt: "Full published rent card for a women-only hostel in Saravanampatti. Deluxe triple ₹8,500, twin ₹9,500, Studio ₹11,500. Deposit, electricity and deposit norms explained.",

@@ -19,6 +19,8 @@ import BestWomensPgKctTechPark from "./pages/blog/BestWomensPgKctTechPark";
 import WorkingWomensHostelSaravanampatti from "./pages/blog/WorkingWomensHostelSaravanampatti";
 import LadiesHostelMonthlyRentCoimbatore from "./pages/blog/LadiesHostelMonthlyRentCoimbatore";
 import SafeWomensAccommodationCoimbatore from "./pages/blog/SafeWomensAccommodationCoimbatore";
+import SaravanampattiVsPeelameduGandhipuram from "./pages/blog/SaravanampattiVsPeelameduGandhipuram";
+import SaravanampattiCommuteGuide from "./pages/blog/SaravanampattiCommuteGuide";
 import PgNearCollegesSaravanampatti from "./pages/blog/PgNearCollegesSaravanampatti";
 import BestWomensHostelSaravanampatti2025 from "./pages/blog/BestWomensHostelSaravanampatti2025";
 import WomensHostelVsPgSaravanampatti from "./pages/blog/WomensHostelVsPgSaravanampatti";
@@ -56,6 +58,8 @@ const App = () => (
         <Route path="/blog/working-womens-hostel-saravanampatti" element={<WorkingWomensHostelSaravanampatti />} />
         <Route path="/blog/ladies-hostel-monthly-rent-coimbatore" element={<LadiesHostelMonthlyRentCoimbatore />} />
         <Route path="/blog/safe-womens-accommodation-coimbatore" element={<SafeWomensAccommodationCoimbatore />} />
+        <Route path="/blog/saravanampatti-vs-peelamedu-vs-gandhipuram" element={<SaravanampattiVsPeelameduGandhipuram />} />
+        <Route path="/blog/saravanampatti-commute-guide" element={<SaravanampattiCommuteGuide />} />
         <Route path="/blog/pg-near-colleges-saravanampatti" element={<PgNearCollegesSaravanampatti />} />
         <Route path="/blog/best-womens-hostel-saravanampatti-2025" element={<BestWomensHostelSaravanampatti2025 />} />
         <Route path="/blog/womens-hostel-vs-pg-saravanampatti" element={<WomensHostelVsPgSaravanampatti />} />
