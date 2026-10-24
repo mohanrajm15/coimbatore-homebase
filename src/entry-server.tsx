@@ -69,6 +69,16 @@ const routeMeta: Record<string, { title: string; description: string; canonical:
     description: 'Plan your budget for ladies hostel in Saravanampatti Coimbatore. Monthly rent breakdown, included amenities, and cost comparison.',
     canonical: 'https://www.theroyalneststudiohouse.com/blog/ladies-hostel-monthly-rent-coimbatore'
   },
+  '/blog/saravanampatti-vs-peelamedu-vs-gandhipuram': {
+    title: 'Saravanampatti vs Peelamedu vs Gandhipuram (2026) | The Royal Nest',
+    description: 'Saravanampatti, Peelamedu or Gandhipuram? Which Coimbatore area suits women students and IT freshers at KGiSL, CHIL SEZ IT Park, Kumaraguru or PSG.',
+    canonical: 'https://www.theroyalneststudiohouse.com/blog/saravanampatti-vs-peelamedu-vs-gandhipuram'
+  },
+  '/blog/saravanampatti-commute-guide': {
+    title: 'Saravanampatti Commute Guide 2026 | The Royal Nest',
+    description: 'How to reach Saravanampatti from Coimbatore Airport and Gandhipuram, addresses for KGiSL, CHIL SEZ IT Park and Kumaraguru, and official transport links.',
+    canonical: 'https://www.theroyalneststudiohouse.com/blog/saravanampatti-commute-guide'
+  },
   '/blog/safe-womens-accommodation-coimbatore': {
     title: "Safe Women's Accommodation in Coimbatore | Top 5 Safety Tips - The Royal Nest",
     description: 'How to choose a secure ladies hostel in Saravanampatti Coimbatore. Safety tips for women-only PG with 24/7 security and CCTV surveillance.',
