@@ -14,4 +14,4 @@ Waiting on a Netlify deploy. Conflicting deposit terms require confirmation befo
 
 # Hyperlocal blog drafts
 
-- [ ] Research and present a Saravanampatti–Peelamedu–Gandhipuram locality comparison and Saravanampatti commute guide for review; do not add them to the website yet.
+- [x] Research and present a Saravanampatti–Peelamedu–Gandhipuram locality comparison and Saravanampatti commute guide for review; do not add them to the website yet.
