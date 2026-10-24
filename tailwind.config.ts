@@ -108,8 +108,9 @@ export default {
         "slide-up": "slide-up 0.8s ease-out",
       },
       fontFamily: {
-        sans: ['Poppins', 'system-ui', 'sans-serif'],
-        poppins: ['Poppins', 'sans-serif'],
+        sans: ['Nunito Sans', 'system-ui', 'sans-serif'],
+        serif: ['Lora', 'Georgia', 'serif'],
+        poppins: ['Nunito Sans', 'system-ui', 'sans-serif'],
       },
     },
   },

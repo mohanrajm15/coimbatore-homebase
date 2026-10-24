@@ -6,3 +6,8 @@
 - [ ] Validate existing SEO remains unchanged and check the live Netlify deployment.
 
 Implementation awaits plan approval. Conflicting deposit terms require confirmation before publishing a definitive deposit answer.
+
+# Palette and typography refresh
+
+- [x] Apply the selected palette and heading/body fonts globally without changing page content or navigation.
+- [ ] Verify unchanged content and navigation, font loading, and desktop/mobile layout.
