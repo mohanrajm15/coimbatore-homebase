@@ -1,10 +1,26 @@
-Two small, focused changes:
+Pricing & Complimentary Amenities Update
 
-1. Replace the sitewide Lovable OG image placeholder
-- Generate a 1200×630 branded social-preview image (`public/og-image.jpg`) for The Royal Nest Studio House with legible text, hostel/room visual, and the ₹8,500/month offer.
-- Update `index.html` so `og:image` and `twitter:image` point to `https://www.theroyalneststudiohouse.com/og-image.jpg` instead of `https://lovable.dev/opengraph-image-p98pqg.png`.
-- The prerender script only replaces title/description/canonical/og:description, so the new OG image will correctly carry through to every prerendered page.
+Goal: make it clear that monthly rent pays for the room only, and these 9 services are complimentary (offered as goodwill, not guaranteed on-demand): Washing machine, Refrigerator, Water dispenser, AC in room, Bathroom geyser, Security, Housekeeping, Generator, WiFi.
 
-2. Fix the /pricing contradiction
-- In `src/pages/Pricing.tsx`, remove the "Contact us for pricing." subheading.
-- Replace it with a number-first lead, e.g., "All-inclusive rates from ₹8,500/month. No hidden charges.", so the published prices immediately follow the H1.
+SEO safety rule: keep every amenity keyword, H1/H2 structure, titles, meta descriptions and URLs. Only swap framing words ("included", "all-inclusive", "rent covers") for "complimentary" / "room rent only".
+
+## 1. Pricing page (/pricing)
+- Hero subhead: "Room rent from ₹8,500/month. Amenities complimentary. No hidden charges."
+- Pricing cards: split each card into "Your rent covers" (private bedroom, attached bathroom, kitchen area, balcony, furnished room, parking) and a smaller "Complimentary" list (WiFi, AC, housekeeping, power backup, etc.).
+- Rename section "What's Included in All Rooms" to "Complimentary Amenities for All Residents" and list all 9 items (keep the existing CCTV, water, parking lines).
+- Add a short note under that section: complimentary services are provided on a best-effort basis; repairs and servicing are scheduled, not instant, and do not change the rent.
+- Terms & Conditions: add a "Complimentary Amenities" clause saying these are not part of the rent, may be serviced or paused for maintenance, and no rent reduction applies during downtime.
+
+## 2. Light wording swaps elsewhere (same keywords, new framing)
+- FAQ: "All rates include WiFi, housekeeping..." becomes "Rent is for the room; WiFi, housekeeping and other amenities are complimentary." Keep question "What amenities are included..." unchanged for search; adjust answer to say "complimentary".
+- Women's hostel landing page and homepage features: "Twice weekly cleaning service included" becomes "Complimentary twice-weekly cleaning"; matching FAQ line updated.
+- Rooms page: "Common Amenities for All Rooms" becomes "Complimentary Amenities for All Rooms".
+- Blogs (rent 2026 guide, monthly rent Coimbatore, hostel vs PG, KCT, working women): replace "rent covers / all-inclusive / included" with "room-only rent with complimentary amenities". Section headings and keywords stay.
+- FAQ schema text updates automatically from the answers.
+
+## 3. Not changing
+- Prices, deposit, minimum stay, electricity terms, titles, meta descriptions, URLs, sitemap.
+
+## Technical details
+- Files: src/pages/Pricing.tsx, FAQ.tsx, Rooms.tsx, WomensHostelSaravanampatti.tsx, src/components/FeaturesSection.tsx, and the 5 blog files listed above.
+- Copy-only edits; no route, meta or prerender changes. Save the "rent = room only, amenities complimentary" rule to project memory.
