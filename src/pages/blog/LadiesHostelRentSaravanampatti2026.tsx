@@ -190,7 +190,6 @@ const LadiesHostelRentSaravanampatti2026 = () => {
                     "Complimentary: high-speed WiFi, AC, bathroom geyser",
                     "Complimentary: washing machine, refrigerator, water dispenser",
                     "Complimentary: power backup, 24/7 CCTV security, housekeeping",
-                    "Municipality water",
                     "Common area maintenance"
                   ].map((item) => (
                     <li key={item} className="flex items-start">
