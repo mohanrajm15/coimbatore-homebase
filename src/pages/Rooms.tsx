@@ -230,7 +230,6 @@ const Rooms = () => {
                   { icon: Sofa, text: "Common seating areas with sofas on 1st & 2nd floor" },
                   { icon: Sun, text: "Open terrace for relaxation" },
                   { icon: Building2, text: "Tile flooring throughout, granite stairs" },
-                  { icon: Droplet, text: "Municipality water supply ('Nalla thanni')" },
                   { icon: Zap, text: "Key card electricity control" },
                   { icon: WashingMachine, text: "Multiple Washing machines on terrace with drying shed" },
                   { icon: ShieldCheck, text: "24/7 security personnel & hostel manager" },

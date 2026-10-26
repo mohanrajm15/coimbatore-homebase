@@ -29,7 +29,7 @@ const features = [
   {
     icon: Droplet,
     title: "Water & Amenities",
-    description: "Municipality water supply, hot/cold water dispenser, and refrigerators on each floor"
+    description: "Hot/cold water dispenser and refrigerators on each floor"
   },
   {
     icon: Car,

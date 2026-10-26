@@ -163,7 +163,6 @@ const Pricing = () => {
                   "Housekeeping",
                   "Generator power backup",
                   "24/7 security & CCTV",
-                  "Municipality water",
                   "Common area maintenance",
                   "Parking space",
                   "Community support"
